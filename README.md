@@ -22,10 +22,43 @@ The algorithm will then calculate the ideal route and output the results. The ba
    1. Minimize rotations and plane changes (movement from one face to another around a module)
    1. Field to enter crew member's wingspan
 1. Output should include sequential list of handrail numbers, including distance between each pair of handrails
-1. Output should be in a format readable by DOUG
+1. Output should be in a format readable by DOUG 
+
+## OUTPUT FORMAT
+Ideally the model should be represented using nodes on a graph (a scene-graph). Each node in the graph would contain a transformation of the frame that its model and child nodes would be relative to.  The following is a sample of how a scene-graph for a simple camera model could be defined and is actually a format that DOUG can read.  In DOUG all units are in inches and degrees.
+
+The following is a sample:
+
+    camera_A
+    SYSTEM
+    0 0 0
+    0 0 0
+    NULL
+        camera_pan_A
+        camera_pan_model.stl
+        0 0 0
+        0 0 0
+        camera_A
+            camera_tilt_A
+            camera_model.stl
+            0 0 2.0
+            0 0 0
+            camera_pan_A
+
+The indentation is not required but is included above to show the relationship between the nodes.
+
+DOUG uses a right-handed coordinate system where <pitch> is rotation about the 'Y-axis', <yaw> is rotation about the 'Z-axis' and <roll> is about the 'X-axis' and is typically applied in Pitch-Yaw-Roll order.
+
+Each node is represented with 5 consecutive lines of text in the file with the following format.  
+
+    <unique_node_name>
+    <geometry_file_name> or "SYSTEM"
+    <x> <y> <z>
+    <pitch> <yaw> <roll>
+    <parent_node_name> or "NULL"
 
 ## SAMPLE DATA
-
+[SampleData/LAB_S0_geometry.stl](SampleData/LAB_S0_geometry.stl) contains a text based data format of the geometry of the US Lab and S0 truss of the ISS.
 
 ## RELATED WORK
 See [ISSMaps](https://github.com/darenwelsh/ISSMaps), my first attempt at this. I didn't get very far, but it may be helpful.
