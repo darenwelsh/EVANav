@@ -58,19 +58,20 @@ Each node is represented with 5 consecutive lines of text in the file with the f
     <parent_node_name> or "NULL"
 
 ## SAMPLE DATA
-LAB_S0_geometry.stl     - Contains a text based data format of the geometry of the US Lab and S0 truss of the ISS
-LABHANDHOLDS/           - Contains Lab handrails as STL files
-LABHANDHOLDS.str        - Struct file containing xyz/PYR of each handrail on Lab
-S0HANDHOLDS/            - Contains S0 truss handrails as STL files
-S0HANDHOLDS.str         - Struct file containing xyz/PYR of each handrail on S0 truss
+* LAB_S0_geometry.stl     - Contains a text based data format of the geometry of the US Lab and S0 truss of the ISS
+* Handrails/
+  * LABHANDHOLDS/           - Contains Lab handrails as STL files
+  * LABHANDHOLDS.str        - Struct file containing xyz/PYR of each handrail on Lab
+  * S0HANDHOLDS/            - Contains S0 truss handrails as STL files
+  * S0HANDHOLDS.str         - Struct file containing xyz/PYR of each handrail on S0 truss
 
 The .str files contain the location and orientation information for each handrail, saved with 5 lines.
 
-NodeName
-Modelname
-x y z
-pitch yaw roll
-ParentNode
+* NodeName
+* Modelname
+* x y z
+* pitch yaw roll
+* ParentNode
 
 ## RELATED WORK
 See [ISSMaps](https://github.com/darenwelsh/ISSMaps), my first attempt at this. I didn't get very far, but it may be helpful.
