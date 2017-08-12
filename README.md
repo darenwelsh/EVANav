@@ -22,7 +22,7 @@ The algorithm will then calculate the ideal route and output the results. The ba
    1. Minimize rotations and plane changes (movement from one face to another around a module)
    1. Field to enter crew member's wingspan
 1. Output should include sequential list of handrail numbers, including distance between each pair of handrails
-1. Output should be in a format readable by DOUG 
+1. Output should be in a format readable by DOUG
 
 ## OUTPUT FORMAT
 Ideally the model should be represented using nodes on a graph (a scene-graph). Each node in the graph would contain a transformation of the frame that its model and child nodes would be relative to.  The following is a sample of how a scene-graph for a simple camera model could be defined and is actually a format that DOUG can read.  In DOUG all units are in inches and degrees.
@@ -49,7 +49,7 @@ The indentation is not required but is included above to show the relationship b
 
 DOUG uses a right-handed coordinate system where <pitch> is rotation about the 'Y-axis', <yaw> is rotation about the 'Z-axis' and <roll> is about the 'X-axis' and is typically applied in Pitch-Yaw-Roll order.
 
-Each node is represented with 5 consecutive lines of text in the file with the following format.  
+Each node is represented with 5 consecutive lines of text in the file with the following format.
 
     <unique_node_name>
     <geometry_file_name> or "SYSTEM"
@@ -58,7 +58,19 @@ Each node is represented with 5 consecutive lines of text in the file with the f
     <parent_node_name> or "NULL"
 
 ## SAMPLE DATA
-[SampleData/LAB_S0_geometry.stl](SampleData/LAB_S0_geometry.stl) contains a text based data format of the geometry of the US Lab and S0 truss of the ISS.
+LAB_S0_geometry.stl     - Contains a text based data format of the geometry of the US Lab and S0 truss of the ISS
+LABHANDHOLDS/           - Contains Lab handrails as STL files
+LABHANDHOLDS.str        - Struct file containing xyz/PYR of each handrail on Lab
+S0HANDHOLDS/            - Contains S0 truss handrails as STL files
+S0HANDHOLDS.str         - Struct file containing xyz/PYR of each handrail on S0 truss
+
+The .str files contain the location and orientation information for each handrail, saved with 5 lines.
+
+NodeName
+Modelname
+x y z
+pitch yaw roll
+ParentNode
 
 ## RELATED WORK
 See [ISSMaps](https://github.com/darenwelsh/ISSMaps), my first attempt at this. I didn't get very far, but it may be helpful.
