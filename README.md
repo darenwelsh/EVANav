@@ -10,6 +10,15 @@ The user interface should allow for selection of start and end points, each diff
 
 The algorithm will then calculate the ideal route and output the results. The basic output should be a sequential list of handrail numbers and the distance between each pair of handrails along the path. A long term goal is to output the results in a way that DOUG can read so the path can be highlighted and centered in the viewing frame.
 
+## EXAMPLE OF ALTERNATE ROUTES
+Suppose an EV crew member is on the starboard/forward edge of the Lab and needs to translate to S0 forward. The two images below show alternate paths. One may be more direct, but it forces the crew member to translate near sensitive hardware. The other path goes around the sensitive hardware, but may take longer.
+
+In this path, the crew member must maneuver around the sensitive hardware highlighted in yellow:
+![Path 2](images/Lab-to-S0-path2.png)
+
+In this path, the crew member is routed away from the sensitive hardware, but the path is longer:
+![Path 1](images/Lab-to-S0-path1.png)
+
 ## REQUIREMENTS & ASSUMPTIONS
 1. For this project, assume only handrails can be used to aid in translation (though it is common for EV crew to use structural beams in places where handrails are sparse).
 1. UI should include start and end points
