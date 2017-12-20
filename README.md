@@ -6,9 +6,11 @@ Imagine using Google Maps and Navigation, but as a space walker on the Space Sta
 
 Flight controllers and astronauts at NASA use a 3D model of the International Space Station (ISS) to aid in the planning and execution of ExtraVehicular Activity (EVA, or "space walks"). This model (named "DOUG") includes all of the modules and hardware on ISS as well as each handrail used by an EVA crew member to aid in translation. Determining the "best" path from one location on ISS to another is currently done by trained, experienced humans. This project is to use computing power to aid those humans.
 
-The user interface should allow for selection of start and end points, each different handrails. The user may also choose options for the route. The default will be the shortest route, but the user may want the route that encounters the least amount of hazards (sharp edges, radiating hardware, articulating structures, shatterable materials, etc), a route that deconflicts their partner's route (EVAs are performed by a pair of crew), a route including one or more waypoints in the middle of the route, and/or a route with the fewest number of rotations and plane changes. The user may also choose to enter the value for the crew member's wingspan. This is important in places where handrails are spaced farther apart than some people's reach limit.
+The user interface should allow for selection of start and end points, each different handrails. The user may also choose options for the route. The default will be the shortest route, but the user may want the route that encounters the least amount of hazards (sharp edges, radiating hardware, articulating structures, shatterable materials, etc), a route that deconflicts their partner's route (EVAs are performed by a pair of crew), a route including one or more waypoints in the middle of the route, and/or a route with the fewest number of rotations and plane changes. The user may also choose to enter the value for the crew member's wingspan. This is important in places where handrails are spaced farther apart than some people's reach limit. 
 
-The algorithm will then calculate the ideal route and output the results. The basic output should be a sequential list of handrail numbers and the distance between each pair of handrails along the path. A long term goal is to output the results in a way that DOUG can read so the path can be highlighted and centered in the viewing frame.
+The user may also want to consider Safety Tether routing. Each of the two crew members wears a Safety Tether, a coiled spool of braided steel cable, that connects them to a point on ISS. Usually the anchor hook is attached to a point just outside of the EV hatch. As the two crew members translate around structure, their tether might drag across articulating structures or delicate materials. EVA planners must guide the crew members how to fairlead their tether at points to keep their tethers from snagging on the wrong places.
+
+This algorithm will consider all the inputs to calculate the ideal route and output the results. The basic output should be a sequential list of handrail numbers and the distance between each pair of handrails along the path. A long term goal is to output the results in a way that DOUG can read so the path can be highlighted and centered in the viewing frame.
 
 ## EXAMPLE OF ALTERNATE ROUTES
 Suppose an EV crew member is on the starboard/forward edge of the Lab and needs to translate to S0 forward. The two images below show alternate paths. One may be more direct, but it forces the crew member to translate near sensitive hardware. The other path goes around the sensitive hardware, but may take longer.
@@ -28,10 +30,12 @@ In this path, the crew member is routed away from the sensitive hardware, but th
    1. Avoid crew hazards (things that hurt the crew or their suit)
    1. Avoid hardware hazards (things that could by hurt by the crew)
    1. Deconflict partner's route (don't use the same handrails)
+   1. Deconflict safety tethers from crossing each other and from crossing hazards
    1. Minimize rotations and plane changes (movement from one face to another around a module)
    1. Field to enter crew member's wingspan
 1. Output should include sequential list of handrail numbers, including distance between each pair of handrails
 1. Output should be in a format readable by DOUG
+1. Output should optionally suggest safety tether fairlead locations
 
 ## OUTPUT FORMAT
 Ideally the model should be represented using nodes on a graph (a scene-graph). Each node in the graph would contain a transformation of the frame that its model and child nodes would be relative to.  The following is a sample of how a scene-graph for a simple camera model could be defined and is actually a format that DOUG can read.  In DOUG all units are in inches and degrees.
@@ -85,4 +89,32 @@ The .str files contain the location and orientation information for each handrai
 ## RELATED WORK
 See [ISSMaps](https://github.com/darenwelsh/ISSMaps), my first attempt at this. I didn't get very far, but it may be helpful.
 
-See [NASA Path Finder](https://github.com/lovetostrike/nasa-path-finder), a project by graduate students in the University of Maryland University College Software Engineering (SWEN 670) course to implement this idea.
+### Fall 2017 Semester
+See [NASA Path Finder](https://github.com/lovetostrike/nasa-path-finder), a project by graduate students in the University of Maryland University College Software Engineering (SWEN 670) course to implement this idea (fall 2017 semester). 
+
+This group accomplished the following aspects:
+* Back end to calculate shortest handrail paths
+* Front end accessed via localhost:3000
+* Dropdowns for start/end points
+* Slider for wingspan (I don't think this is factored into the calculation yet)
+* Selection boxes for 3 possible routes
+* 3d model visualization of ISS model with routes
+* Handrail list (does not include distance between each handrail pair)
+* Ability to upload model files (I have not tested this)
+
+Here is a non-exhaustive list of remaining work:
+* Use the wingspan slider input to effect the potential paths calculated
+* Add distances between each handrail pair in each path
+* Add UI and update calculation for other factors:
+  * Avoid hazards
+  * Two crew members, deconflict routes
+  * Add waypoint(s)
+  * Minimize rotations and plane changes
+* Consider safety tether routing:
+  * Display tether routing
+  * Suggest fairleads to avoid hazards
+  * Deconflict tethers from two crew
+* Update model to include all of ISS (data will be provided)
+
+Here is a screenshot of the front end:
+![Demo](images/Demo.png)
