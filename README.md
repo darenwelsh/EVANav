@@ -104,19 +104,25 @@ This group accomplished the following aspects:
 * Handrail list (does not include distance between each handrail pair)
 * Ability to upload model files (I have not tested this)
 
-Here is a non-exhaustive list of remaining work:
-* Use the wingspan slider input to effect the potential paths calculated
-* Add distances between each handrail pair in each path
-* Add UI and update calculation for other factors:
-  * Avoid hazards
-  * Two crew members, deconflict routes
-  * Add waypoint(s)
-  * Minimize rotations and plane changes
-* Consider safety tether routing:
-  * Display tether routing
-  * Suggest fairleads to avoid hazards
-  * Deconflict tethers from two crew
-* Update model to include all of ISS (data will be provided)
-
-Here is a screenshot of the front end:
+Here is a screenshot of the front end as of fall 2017:
 ![Demo](images/Demo.png)
+
+
+### Forward work
+Here is a non-exhaustive list of remaining work:
+1. Verify basic functionality
+1. Update model to include all of ISS (data is provided in [0.1.0 release](https://github.com/darenwelsh/EVANav/releases/tag/0.1.0))
+1. Add extra highlighting or some halo effect to make start and end points more obvious in 3d model
+1. Use the wingspan slider input to effect the potential paths calculated
+1. Add distances between each handrail pair in each path
+1. Allow users to click a handrail in the 3d model to select start and end points
+1. Add UI and update calculation to avoid hazards
+1. Add UI and update calculation accounting for 2 crew members, to deconflict routes
+1. Add UI and update calculation to allow additional waypoint(s)
+1. Add UI and update calculation to minimize suit rotations and plane changes (translating around corners and edges)
+1. Display tether routing
+1. Deconflict tethers from two crew
+1. Suggest fairleads to avoid hazards
+1. Integrate output into DOUG application 
+1. Verify functionality of UI to drag and drop new model file
+
