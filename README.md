@@ -91,7 +91,7 @@ The .str files contain the location and orientation information for each handrai
 ## RELATED WORK
 See [ISSMaps](https://github.com/darenwelsh/ISSMaps), my first attempt at this. I didn't get very far, but it may be helpful.
 
-### Fall 2017 Semester
+### Phase 1 - Fall 2017 Semester
 See [NASA Path Finder](https://github.com/lovetostrike/nasa-path-finder), a project by graduate students in the University of Maryland University College Software Engineering (SWEN 670) course to implement this idea (fall 2017 semester). 
 
 This group accomplished the following aspects:
@@ -107,6 +107,9 @@ This group accomplished the following aspects:
 Here is a screenshot of the front end as of fall 2017:
 ![Demo](images/Demo.png)
 
+
+### Phase 2
+See the [Phase 2 repo](https://github.com/xpaddict/nasa-path-finder).
 
 ### Forward work
 Here is a non-exhaustive list of remaining work:
