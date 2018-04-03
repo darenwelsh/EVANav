@@ -114,7 +114,7 @@ See the [Phase 2 repo](https://github.com/xpaddict/nasa-path-finder).
 ### Forward work
 Here is a non-exhaustive list of remaining work:
 1. Verify basic functionality
-1. Update model to include all of ISS (data is provided in [0.1.0 release](https://github.com/darenwelsh/EVANav/releases/tag/0.1.0))
+1. Update model to include all of ISS (data is provided in [0.2.0 release](https://github.com/darenwelsh/EVANav/releases/tag/0.2.0))
 1. Add extra highlighting or some halo effect to make start and end points more obvious in 3d model
 1. Use the wingspan slider input to effect the potential paths calculated
 1. Add distances between each handrail pair in each path
