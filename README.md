@@ -128,4 +128,6 @@ Here is a non-exhaustive list of remaining work:
 1. Suggest fairleads to avoid hazards
 1. Integrate output into DOUG application 
 1. Verify functionality of UI to drag and drop new model file
+1. Add UI allowing user to specify starboard and port SARJ angles (and other articulating structures?)
+1. Add UI allowing user to specify location of MT and CETA Carts
 
