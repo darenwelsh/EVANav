@@ -118,16 +118,18 @@ Here is a non-exhaustive list of remaining work:
 1. Add extra highlighting or some halo effect to make start and end points more obvious in 3d model
 1. Use the wingspan slider input to effect the potential paths calculated
 1. Add distances between each handrail pair in each path
+1. Add indications of when axial direction and plane changes (e.g. from port to zenith or from face 1 to face 2)
 1. Allow users to click a handrail in the 3d model to select start and end points
+1. Add UI and update calculation based on volume and orientation of space suit (maybe display tube illustrating path traversed by suit extremeties)
 1. Add UI and update calculation to avoid hazards
 1. Add UI and update calculation accounting for 2 crew members, to deconflict routes
 1. Add UI and update calculation to allow additional waypoint(s)
 1. Add UI and update calculation to minimize suit rotations and plane changes (translating around corners and edges)
 1. Display tether routing
 1. Deconflict tethers from two crew
-1. Suggest fairleads to avoid hazards
+1. Suggest minimal fairleads to avoid hazards
 1. Integrate output into DOUG application 
 1. Verify functionality of UI to drag and drop new model file
 1. Add UI allowing user to specify starboard and port SARJ angles (and other articulating structures?)
 1. Add UI allowing user to specify location of MT and CETA Carts
-
+1. Add UI option to choose optimal path for 1G environment (in the NBL) instead of optimal path for microgravity
