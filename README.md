@@ -115,6 +115,8 @@ See the [Phase 2 repo](https://github.com/xpaddict/nasa-path-finder).
 Here is a non-exhaustive list of remaining work:
 1. Verify basic functionality
 1. Update model to include all of ISS (data is provided in [0.2.0 release](https://github.com/darenwelsh/EVANav/releases/tag/0.2.0))
+1. Provide a legend/key on how to maneuver ISS
+1. Can the movement controls be improved to allow for 3-axis movement and 3-axis rotation?
 1. Add extra highlighting or some halo effect to make start and end points more obvious in 3d model
 1. Use the wingspan slider input to effect the potential paths calculated
 1. Add distances between each handrail pair in each path
