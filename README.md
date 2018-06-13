@@ -112,6 +112,8 @@ Here is a screenshot of the front end as of fall 2017:
 See the [Phase 2 repo](https://github.com/xpaddict/nasa-path-finder).
 
 ### Forward work
+Reference [open issues](https://github.com/darenwelsh/EVANav/issues) for bugs and feature requests that might not be listed below.
+
 Here is a non-exhaustive list of remaining work:
 1. Verify basic functionality
 1. Update model to include all of ISS (data is provided in [0.2.0 release](https://github.com/darenwelsh/EVANav/releases/tag/0.2.0))
