@@ -1,0 +1,17 @@
+# Project: NASA Path in conjunction with University of Maryland University College
+# @author Nikki Florea
+
+# runs bash script
+#!/bin/bash
+
+# opens a command prompt and runs command
+.  bat_files/yarn & wait
+
+# opens a command prompt and runs command
+.  bat_files/yarn_start & wait
+
+# opens a command prompt and runs command
+.  bat_files/yarn_compile & wait
+
+# opens firefox at specified location
+firefox http://127.0.0.1:3000/
