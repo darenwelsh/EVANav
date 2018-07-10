@@ -1,0 +1,8 @@
+# Project: NASA Path in conjunction with University of Maryland University College
+# @author Nikki Florea
+
+# runs bash script
+#!/bin/bash
+
+# changes directory, runs command, and keeps window open
+cd ../ & yarn --ignore-engines & pause

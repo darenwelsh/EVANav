@@ -1,1 +1,15 @@
 .DS_Store
+*.log
+node_modules
+coverage
+.sass-cache/
+_site
+public/*.js
+public/style.css
+public/index.html
+server/build
+server/dist
+server/nbproject
+server/build.xml
+server/manifest.mf
+server/target

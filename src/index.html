@@ -1,0 +1,35 @@
+<html>
+  <head>
+  
+  <!-- addition for load progress ------------------------------- 22 lines -->
+  <style media="screen" type="text/css">
+	.loader:empty {
+	  position: absolute;
+	  top: calc(50% - 4em);
+	  left: calc(50% - 4em);
+	  width: 6em;
+	  height: 6em;
+	  border: 1.0em solid rgba(0, 0, 0, 0.2);
+	  border-left: 1.0em solid #4a4a4a;
+	  border-radius: 50%;
+	  animation: load8 1.1s infinite linear;
+	}
+	
+	@keyframes load8 {
+	  0% {transform: rotate(0deg);}
+	  100% {transform: rotate(360deg);}
+	}
+	</style>
+	
+    <title>NASA EVA Navigator</title>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/87/three.min.js'></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600,800,900" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+  
+	<!-- addition for load progress ------------------------------- 1 line -->
+	<div id="app" class="loader"></div>
+	
+	<main></main>
+  </body>
+</html>
