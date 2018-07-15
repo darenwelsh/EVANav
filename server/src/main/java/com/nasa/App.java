@@ -14,6 +14,12 @@ import fi.iki.elonen.NanoHTTPD.Response;
 import fi.iki.elonen.NanoHTTPD;
 // April 2018 - George - Added code to Add distances between each handrail pair in each path here and in Container.js 
 // NanoHTTPD > v3.0.0
+
+//July 2018 - Deepali Varma- 
+//Added distances between each handrail pair in each path
+//Modified the file to truncate the distance and distancetotal to one decimal
+
+
 //import org.nanohttpd.NanoHTTPD;
     
 /*
@@ -128,22 +134,29 @@ public class App extends NanoHTTPD {
         // Loop through each node to display handrail and calculate distance
         for (Node node : nodes) {
           String nodeId = node.getNodeId();
-          nodeIds.add(nodeId);
           
           // For each handrail after the first, calculate distance between previous and current handrail
           // For each handrail distance tally up the total distance between the first handrail and the last
-          // Truncate the distancetotal to two decimals
+          // Truncate the distancetotal to one decimals
           try {
               if (nodeLast != null) {
                 distance = node.node_distance_formula(node, nodeLast);
-                distance = ((double) Math.round(distance * 100)) / 100;
+                distance = ((double) Math.round(distance * 10)) / 10;
                 distancetotal += distance;
-                distancetotal = (double) Math.round(distancetotal  * 100) / 100;
+                distancetotal = (double) Math.round(distancetotal  * 10) / 10;
               }
           }catch(Exception ex){
             System.out.println("Error calculating handrail distance.");
           }
-         
+
+          //Added distances between each handrail pair in each path
+
+           	if(distance!=0.0)
+            	{
+            		nodeIds.add(Double.toString(distance)+"\"");
+            	}
+           	nodeIds.add(nodeId);
+
           // Output handrail name and distance from last.
           System.out.println(nodeId + " [" + distance + " in.]");
           nodeLast = node;
