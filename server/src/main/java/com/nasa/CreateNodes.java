@@ -34,125 +34,119 @@ import java.util.Scanner;
  * @author Nikki Florea
  */
 public class CreateNodes extends Node {
-    /**
+	/**
      * The following locations take the current system location to determine the correct application directory.
     */
 	String homeDir = System.getenv("HOME");
-    private final String FILENAME5 = homeDir + "..\\..\\..\\..\\..\\S0LABHANDHOLDS.txt";
-    private final String FILENAME6 = homeDir + "..\\..\\..\\..\\..\\S0LABHANDHOLDSDISTANCES.txt";
-    /**
+	private final String FILENAME5 = homeDir + "..\\..\\..\\..\\..\\S0LABHANDHOLDS.txt";
+	private final String FILENAME6 = homeDir + "..\\..\\..\\..\\..\\S0LABHANDHOLDSDISTANCES.txt";
+	/**
     * The following locations take the current system location to determine the correct application directory.
     */
-    File file1 = new File(homeDir + "..\\..\\..\\..\\..\\S0HANDHOLDS.str");
-    File file2 = new File(homeDir + "..\\..\\..\\..\\..\\LABHANDHOLDS.str");
+	File file1 = new File(homeDir + "..\\..\\..\\..\\..\\S0HANDHOLDS.str");
+	File file2 = new File(homeDir + "..\\..\\..\\..\\..\\LABHANDHOLDS.str");
 
-    Node s0Node = new Node();
-    Node labNode = new Node();
-    Node s0LabNode = new Node();
-    List<Node> s0HandHoldNodeList = new ArrayList<>();
-    List<String> s0HandHoldNodeIndexList = new ArrayList<>();
-    List<Node> labHandHoldNodeList = new ArrayList<>();
-    List<String> labHandHoldNodeIndexList = new ArrayList<>();
-    List<Node> s0LabHandHoldNodeList = new ArrayList<>();
-    List<String> s0LabHandHoldNodeIndexList = new ArrayList<>();
+	Node s0Node = new Node();
+	Node labNode = new Node();
+	Node s0LabNode = new Node();
+	List < Node > s0HandHoldNodeList = new ArrayList < >();
+	List < String > s0HandHoldNodeIndexList = new ArrayList < >();
+	List < Node > labHandHoldNodeList = new ArrayList < >();
+	List < String > labHandHoldNodeIndexList = new ArrayList < >();
+	List < Node > s0LabHandHoldNodeList = new ArrayList < >();
+	List < String > s0LabHandHoldNodeIndexList = new ArrayList < >();
 
-    private double s0LabNodeDist;
-    private String s0LabNodeDistString;
+	private double s0LabNodeDist;
+	private String s0LabNodeDistString;
 
-    private BufferedWriter bw5 = null;
-    private BufferedWriter bw6 = null;
+	private BufferedWriter bw5 = null;
+	private BufferedWriter bw6 = null;
 
-    private FileWriter fw5 = null;
-    private FileWriter fw6 = null;
+	private FileWriter fw5 = null;
+	private FileWriter fw6 = null;
 
-    public void createS0LabHandHoldNodeList() {
+	public void createS0LabHandHoldNodeList() {
 
-        try {
-            Scanner inputFile1 = new Scanner(file1);
-            Scanner inputFile2 = new Scanner(file2);
+		try {
+			Scanner inputFile1 = new Scanner(file1);
+			Scanner inputFile2 = new Scanner(file2);
 
-            fw5 = new FileWriter(FILENAME5);
-            bw5 = new BufferedWriter(fw5);
+			fw5 = new FileWriter(FILENAME5);
+			bw5 = new BufferedWriter(fw5);
 
-            while (inputFile1.hasNext()) {
+			while (inputFile1.hasNext()) {
 
-                s0Node = new Node(inputFile1.nextLine(), inputFile1.nextLine(),
-                        Double.parseDouble(inputFile1.next()), Double.parseDouble(inputFile1.next()),
-                        Double.parseDouble(inputFile1.nextLine()), Double.parseDouble(inputFile1.next()),
-                        Double.parseDouble(inputFile1.next()), Double.parseDouble(inputFile1.nextLine()),
-                        inputFile1.nextLine());
+				s0Node = new Node(inputFile1.nextLine(), inputFile1.nextLine(), Double.parseDouble(inputFile1.next()), Double.parseDouble(inputFile1.next()), Double.parseDouble(inputFile1.nextLine()), Double.parseDouble(inputFile1.next()), Double.parseDouble(inputFile1.next()), Double.parseDouble(inputFile1.nextLine()), inputFile1.nextLine());
 
-                bw5.write(s0Node.toString() + "\r\n");
-                s0LabHandHoldNodeList.add(s0Node);
-                s0LabHandHoldNodeIndexList.add(s0Node.getNodeId());
-            }
-            while (inputFile2.hasNext()) {
+				bw5.write(s0Node.toString() + "\r\n");
+				s0LabHandHoldNodeList.add(s0Node);
+				s0LabHandHoldNodeIndexList.add(s0Node.getNodeId());
+			}
+			while (inputFile2.hasNext()) {
 
-                labNode = new Node(inputFile2.nextLine(), inputFile2.nextLine(),
-                        Double.parseDouble(inputFile2.next()), Double.parseDouble(inputFile2.next()),
-                        Double.parseDouble(inputFile2.nextLine()), Double.parseDouble(inputFile2.next()),
-                        Double.parseDouble(inputFile2.next()), Double.parseDouble(inputFile2.nextLine()),
-                        inputFile2.nextLine());
+				labNode = new Node(inputFile2.nextLine(), inputFile2.nextLine(), Double.parseDouble(inputFile2.next()), Double.parseDouble(inputFile2.next()), Double.parseDouble(inputFile2.nextLine()), Double.parseDouble(inputFile2.next()), Double.parseDouble(inputFile2.next()), Double.parseDouble(inputFile2.nextLine()), inputFile2.nextLine());
 
-                bw5.write(labNode.toString() + "\r\n");
-                s0LabHandHoldNodeList.add(labNode);
-                s0LabHandHoldNodeIndexList.add(labNode.getNodeId());
-            }
+				bw5.write(labNode.toString() + "\r\n");
+				s0LabHandHoldNodeList.add(labNode);
+				s0LabHandHoldNodeIndexList.add(labNode.getNodeId());
+			}
+			
+			inputFile1.close();
+			inputFile2.close();
 
-        } catch (IOException e) {
-            e.getStackTrace();
-        } finally {
-            try {
-                if (bw5 != null) {
-                    bw5.close();
-                }
-                if (fw5 != null) {
-                    fw5.close();
-                }
-            } catch (IOException ex) {
-                ex.getStackTrace();
-            }
-        }
+		} catch(IOException e) {
+			e.getStackTrace();
+		} finally {
+			try {
+				if (bw5 != null) {
+					bw5.close();
+				}
+				if (fw5 != null) {
+					fw5.close();
+				}
+			} catch(IOException ex) {
+				ex.getStackTrace();
+			}
+		}
 
-    }
+	}
 
-    public List getS0LabHandHoldNodeList() {
-        return s0LabHandHoldNodeList;
-    }
+	public List getS0LabHandHoldNodeList() {
+		return s0LabHandHoldNodeList;
+	}
 
-    public void createS0LabHandHoldNodeListDistances() {
+	public void createS0LabHandHoldNodeListDistances() {
 
-        try {
+		try {
 
-            fw6 = new FileWriter(FILENAME6);
-            bw6 = new BufferedWriter(fw6);
+			fw6 = new FileWriter(FILENAME6);
+			bw6 = new BufferedWriter(fw6);
 
-            for (int i = 0; i < s0LabHandHoldNodeList.size(); i++) {
-                for (int j = 0; j < s0LabHandHoldNodeList.size(); j++) {
-                    s0LabNodeDist = s0LabNode.node_distance_formula(s0LabHandHoldNodeList.get(i), s0LabHandHoldNodeList.get(j));
-                    s0LabNodeDistString = "Distance from node " + s0LabHandHoldNodeList.get(i).getNodeId() + " to node "
-                            + s0LabHandHoldNodeList.get(j).getNodeId() + " is: " + s0LabNodeDist + "\r\n";
-                    bw6.write(s0LabNodeDistString);
-                }
-            }
+			for (int i = 0; i < s0LabHandHoldNodeList.size(); i++) {
+				for (int j = 0; j < s0LabHandHoldNodeList.size(); j++) {
+					s0LabNodeDist = s0LabNode.node_distance_formula(s0LabHandHoldNodeList.get(i), s0LabHandHoldNodeList.get(j));
+					s0LabNodeDistString = "Distance from node " + s0LabHandHoldNodeList.get(i).getNodeId() + " to node " + s0LabHandHoldNodeList.get(j).getNodeId() + " is: " + s0LabNodeDist + "\r\n";
+					bw6.write(s0LabNodeDistString);
+				}
+			}
 
-        } catch (IOException e) {
-            e.getStackTrace();
-        } finally {
-            try {
-                if (bw6 != null) {
-                    bw6.close();
-                }
-                if (fw6 != null) {
-                    fw6.close();
-                }
-            } catch (IOException ex) {
-                ex.getStackTrace();
-            }
-        }
-    }
+		} catch(IOException e) {
+			e.getStackTrace();
+		} finally {
+			try {
+				if (bw6 != null) {
+					bw6.close();
+				}
+				if (fw6 != null) {
+					fw6.close();
+				}
+			} catch(IOException ex) {
+				ex.getStackTrace();
+			}
+		}
+	}
 
-    /* *************************************************************************
+	/* *************************************************************************
     * The following are only needed if wanting to create each type of
     * seperate node .txt file
 
@@ -175,7 +169,7 @@ public class CreateNodes extends Node {
 
     ************************************************************************** */
 
- /* *************************************************************************
+	/* *************************************************************************
     * The following methods only need to be utilized if wanting to create the
     * files for each separate node type and Arraylists for each node type.
 

@@ -176,7 +176,7 @@ export default class Renderer extends React.Component {
       // -- set hand-rail color values here --
       hrColor = '#3f5056', //blue gray
 //      hrStartColor = '#0823d1', // blue					PHASE 3 MOD Lincoln Powell/lpowell25@student.umuc.edu 7/1/2018 Commenting out start handrail color to blue
-      hrStartColor = '#008A00', // green					PHASE 3 MOD Lincoln Powell/lpowell25@student.umuc.edu 7/9/2018 Change start handrail color to green
+      hrStartColor = '#008000', // green					PHASE 3 MOD Lincoln Powell/lpowell25@student.umuc.edu 7/27/2018 Change start handrail color to green
 //      hrEndColor = '#7744d6', // purple					PHASE 3 MOD Lincoln Powell/lpowell25@student.umuc.edu 7/1/2018 Commenting out end handrail color to purple
       hrEndColor = '#EB0000', // red						PHASE 3 MOD Lincoln Powell/lpowell25@student.umuc.edu 7/9/2018 Change end handrail color to red
       //hrStartHexColor = 0x0823d1, // blue for light
