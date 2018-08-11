@@ -1,3 +1,6 @@
+/*eslint no-mixed-spaces-and-tabs: ["error", "smart-tabs"]*/
+/*eslint no-unused-vars: ["error", { "args": "none" }]*/
+
 /**
  * @author Eberhard Graether / http://egraether.com/
  * @author Mark Lundin 	/ http://mark-lundin.com
