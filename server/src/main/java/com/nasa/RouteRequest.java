@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+//August 2018 - Deepali Varma- 
+//Added modifications in Dijkstra Alorithim paths to use the wingspan slider input to effect the potential paths calculated
+
 public class RouteRequest {
 	private String startHandrail;
 	private String endHandrail;
@@ -23,14 +26,12 @@ public class RouteRequest {
 		Double wingspanInches = Double.parseDouble(this.wingspan) * 12.0;
 		logger.info("Wingspan : " + wingspan + " ft --> " + Double.toString(wingspanInches) + " in");
 
-		// Thresholds for paths are the wingspan distance incremented by 8 inches for each path
+		// Thresholds for paths are the wingspan distance decremented by 4 inches for each path
 		Double[] thresholds = {
-			wingspanInches,
-			(wingspanInches + 8.0),
-			(wingspanInches + 16.0)
-		};
-		logger.info("Thresholds: {" + wingspanInches + ", " + (wingspanInches + 8.0) + ", " + (wingspanInches + 16.0) + "}");
-
+				(wingspanInches),
+				(wingspanInches - 4.0),
+				(wingspanInches - 8.0)
+			}; 	
 		return thresholds;
 	}
 
