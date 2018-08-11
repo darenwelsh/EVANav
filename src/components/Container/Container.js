@@ -20,6 +20,8 @@ import StickyHeader from 'react-sticky-header';
 import {parseNodesFromStrFile} from 'utils/nodeProcessor/nodeProcessor';
 import fetch from 'isomorphic-fetch';
 
+
+
 export default class Container extends React.Component {
   constructor() {
     super();
@@ -27,11 +29,8 @@ export default class Container extends React.Component {
     //set route colors
     this.defaultRoutes = [
       // -- set route color values here --
-//      {value: 1, color: '#ff00cb', nodes: []}, // magenta		PHASE 3 MOD Lincoln Powell/lpowell25@student.umuc.edu 7/1/2018 Commenting out route 1 color to magenta
       {value: 1, color: '#0000FF', nodes: []}, // blue			PHASE 3 MOD Lincoln Powell/lpowell25@student.umuc.edu 7/27/2018 Change route 1 color to blue
-//      {value: 2, color: '#07d10b', nodes: []}, // green		PHASE 3 MOD Lincoln Powell/lpowell25@student.umuc.edu 7/1/2018 Commenting out route 2 color to green
       {value: 2, color: '#FF8000', nodes: []}, // orange		PHASE 3 MOD Lincoln Powell/lpowell25@student.umuc.edu 7/27/2018 Change route 2 color to orange
-//      {value: 3, color: '#ffb200', nodes: []}, // gold		PHASE 3 MOD Lincoln Powell/lpowell25@student.umuc.edu 7/1/2018 Commenting out route 3 color to gold
       {value: 3, color: '#8000FF', nodes: []}, // purple		PHASE 3 MOD Lincoln Powell/lpowell25@student.umuc.edu 7/27/2018 Change route 3 color to purple
     ];
     
@@ -105,12 +104,25 @@ export default class Container extends React.Component {
   handleSidebarOpen(open) {
     this.setState({sidebarOpen: open});
   }
-
-  // method to change start handrail
-  handleStartEndHandrailsChanged(startOrEnd, handrail) {
-    this.setState({
-      [`${startOrEnd}Handrail`]: handrail
-    });
+  
+  /**
+   * PHASE 3 MOD
+   * @author Lincoln Powell/lpowell25@student.umuc.edu
+   * @since 8/9/2018
+   * 
+   * The handleStartEndHandrailsChanged(string, object, boolean) handler controls when the onChange event is fired
+   * to set the start or end handrail dropdown value.  If user clicked on a handrail, create a new handrail object,
+   * setting its value to the name of the handrail.  Then set the state of the start or end handrail dropdown.
+   * Finally, the Renderer.js componentDidUpdate() function is called, coloring the start or end handrail appropriately.
+   */
+  handleStartEndHandrailsChanged(startOrEnd, handrail, clickedHandrail = false) {
+	  if (clickedHandrail) {
+		  handrail = { value: handrail.name.replace(".stl","") }  
+	  }
+	  
+	  this.setState({
+		  [`${startOrEnd}Handrail`]: handrail?handrail.value:null
+	  });
   }
 
   // create a submit handler
@@ -119,8 +131,8 @@ export default class Container extends React.Component {
     fetch(window.location.protocol + '//' + window.location.hostname + ':8080', {
       method: 'post',
       body: JSON.stringify({
-        startHandrail: data.startHandrail ? data.startHandrail.value : null,
-        endHandrail: data.endHandrail ? data.endHandrail.value : null,
+        startHandrail: data.startHandrail ? data.startHandrail : "",				// PHASE 3 MOD Lincoln Powell/lpowell25@student.umuc.edu 8/3/2018 Removed .value attribute call from ternary true condition, data.startHandrail; changed ternary false condition, null, to empty string
+        endHandrail: data.endHandrail ? data.endHandrail : "",						// PHASE 3 MOD Lincoln Powell/lpowell25@student.umuc.edu 8/3/2018 Removed .value attribute call from ternary true condition, data.endHandrail; changed ternary false condition, null, to empty string
         nodes: this.handrails, 
         wingspan: data.wingspan.toString()
       })
@@ -240,6 +252,10 @@ export default class Container extends React.Component {
             endHandrail={endHandrail}
             routes={routes.filter(r => visibleRoutes.includes(r.value)).reverse()}
           	wingspan={wingspan}
+          
+          	// PHASE 3 MOD Lincoln Powell/lpowell25@student.umuc.edu 8/9/2018
+          	// Add handleStartEndHandrailsChanged to Renderer.js as property
+          	handleStartEndHandrailsChanged={this.handleStartEndHandrailsChanged} 
           />
         </Sidebar>
       </div>

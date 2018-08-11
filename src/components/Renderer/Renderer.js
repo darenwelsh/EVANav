@@ -3,12 +3,15 @@
  * @author Group 1 NASA Path team
  * @author Nikki Florea
  */
+
 // March 2018 - Nikki - 
 // Modified file to improve color contrast of handrails
 // Added glow effect to handrails
 // Added in-line documentation
+
 import React from 'react';
 import 'utils/stlLoader';
+import 'utils/TrackballControls';
 import {
   loadMeshFromFile,
   positionModelsBasedOnStrFile,
@@ -18,18 +21,43 @@ import {
 } from 'utils/nodeProcessor/nodeProcessor';
 import Detector from 'utils/detector';
 import Stats from 'stats-js';
-import OrbitControlsFactory from 'three-orbit-controls';
 import PropTypes from 'prop-types';
 
-let OrbitControls = OrbitControlsFactory(THREE);
+// PHASE 3 MOD Lincoln Powell/lpowell25@student.umuc.edu 8/3/2018
+// Declare and initialize Raycaster object.
+var raycaster = new THREE.Raycaster();
+
+//PHASE 3 MOD Lincoln Powell/lpowell25@student.umuc.edu 8/3/2018
+// Declare and initialize Vector2 object representing the 2D vector of a mouse cursor.
+var mouse = new THREE.Vector2();
+
+//PHASE 3 MOD Lincoln Powell/lpowell25@student.umuc.edu 8/3/2018
+// Declare and initialize PerspectiveCamera object.
+var camera = new THREE.PerspectiveCamera(35, window.innerWidth / window.innerHeight, 0.0001, 5000);
+
+//PHASE 3 MOD Lincoln Powell/lpowell25@student.umuc.edu 8/10/2018
+// Declare and initialize TrackballControls object.
+var controls = new THREE.TrackballControls(camera);
+
+//PHASE 3 MOD Lincoln Powell/lpowell25@student.umuc.edu 8/10/2018
+// Declare and initialize Clock object.
+var clock = new THREE.Clock();
+
+//PHASE 3 MOD Lincoln Powell/lpowell25@student.umuc.edu 8/3/2018
+// Declare empty array for handrail meshes used to raycast the mouse cursor to each handrail on the model.
+var handrailMeshes = [];
 
 // create constructor
 export default class Renderer extends React.Component {
   constructor() {
     super();
+    
+    this.state = {
+      hoveredHandrail: null
+    };
+    
     this.container = null;
     this.stats = null;
-    this.camera = null;
     this.cameraTarget = null;
     this.scene = null;
     this.renderer = null;
@@ -38,16 +66,6 @@ export default class Renderer extends React.Component {
     this.handrailModels = {};
     this.domEvents = null;
     this.handleHandrailMouseOver = this.handleHandrailMouseOver.bind(this);
-    // this.domEventsMap = {
-    //   'mouseover': this.handleHandrailMouseOver
-    // };
-    this.state = {
-      hoveredHandrail: null
-    };
-    this.handleHandrailMouseClick = this.handleHandrailMouseClick.bind(this);
-    this.state = {
-      clickedHandrail: null
-    }
     this.handleWindowResize = this.handleWindowResize.bind(this);
     this.animate = this.animate.bind(this);
     this.processFiles = this.processFiles.bind(this);
@@ -62,7 +80,6 @@ export default class Renderer extends React.Component {
 
   // 
   componentDidMount() {
-	// addition for load progress ------------------------------- 1 line
 	setTimeout(() => this.setState({ loading: false }), 1500); // simulates an async action, and hides the spinner
 	// create constants and set values
 	const {
@@ -70,7 +87,7 @@ export default class Renderer extends React.Component {
 		scene_bg_color = '#000', // black (for navy #0a2044)
 		hemisphere_sky_color = '#eff6f7', //light blue
 		hemisphere_ground_color = '#eff6f7', //light blue
-		hemisphere_intensity = .7,
+		hemisphere_intensity = .7
 	} = this.props;
 	
 	// checks for webgl
@@ -78,18 +95,20 @@ export default class Renderer extends React.Component {
       Detector.addGetWebGLMessage();
     }
     
-    // create camera object
-    this.camera = new THREE.PerspectiveCamera(35, window.innerWidth / window.innerHeight, 0.0001, 5000);
     //start position of camera (left-right, up-down, zoom)
-    this.camera.position.set(-1, 0, 2.3);
-    this.cameraTarget = new THREE.Vector3(0, 0, 0);
+    camera.position.set(-1, 0, 2.3);
+    this.cameraTarget = new THREE.Vector3(-2, 0, 0);
     
     // create scene object
     this.scene = new THREE.Scene();
     this.scene.background = new THREE.Color(scene_bg_color);
 
+    //PHASE 3 MOD Lincoln Powell/lpowell25@student.umuc.edu 8/10/2018
     // mouse controls to rotate/zoom the model
-    new OrbitControls(this.camera);
+    controls.rotateSpeed = 3.0;
+    controls.zoomSpeed = 3.0;
+    controls.panSpeed = 3.0;
+    controls.staticMoving = true;
     
     // create lights
     this.scene.add(new THREE.HemisphereLight(hemisphere_sky_color, hemisphere_ground_color, hemisphere_intensity));
@@ -116,8 +135,14 @@ export default class Renderer extends React.Component {
     // create window event listener
     this.container.appendChild(this.stats.domElement);
     window.addEventListener('resize', this.handleWindowResize, false);
+    
     // dom events for meshes
-    this.domEvents = createDomEvents(this.camera, this.renderer);
+    this.domEvents = createDomEvents(camera, this.renderer);
+    
+    // PHASE 3 MOD Lincoln Powell/lpowell25@student.umuc.edu 8/3/2018
+    // Added onDocumentMouseDown and onDocumentMouseOver event listeners
+    document.addEventListener('mousedown', this.onDocumentMouseDown, false);
+	document.addEventListener('mousemove', this.onDocumentMouseMove, false);
   } //end componentDidMount()
 
   //check for updates
@@ -134,14 +159,70 @@ export default class Renderer extends React.Component {
   //handrail mouseover state
   handleHandrailMouseOver(e) {
     this.setState({hoveredHandrail: e.target});
-    //lowPriorityWarning(false, 'Handrail Hovered!');
-    //console.log('test');
   };
-
-  //handrail mouse click state
-  handleHandrailMouseClick(e) {
-    this.setState({clickedHandrail: e.target});
-  };
+  
+  /**
+   * PHASE 3 MOD
+   * @author Lincoln Powell/lpowell25@student.umuc.edu
+   * @since 8/3/2018
+   * 
+   * The onDocumentMouseDown function orients the Raycaster, raycaster, object from the camera to the mouse cursor
+   * then evaluates if an intersection occurred between the mouse cursor and a handrail on the event a user
+   * clicking on a handrail.  If an intersection occurred and as long as a start or end handrail has not been chosen
+   * (meaning the start or end handrail dropdown selection equates to null), call the handleStartEndHandrailsChanged(string, object, boolean)
+   * handler in the Container.js to fire the onChange event; thus, populating the respective dropdown.
+   */
+  onDocumentMouseDown = (e) => {
+	  e.preventDefault();
+	  mouse.x = (e.clientX / window.innerWidth) * 2 - 1;
+	  mouse.y = -(e.clientY / window.innerHeight) * 2 + 1;
+	  raycaster.setFromCamera(mouse, camera);
+	  var intersects = raycaster.intersectObjects(handrailMeshes);
+	  if (intersects.length > 0) {
+		  
+		  // If the start handrail or the end handrail equals null (meaning neither handrail has been chosen)
+		  // or if the chosen handrail is not the preselected start or end handrail, mark the handrail respectively.
+		  if ((!this.props.startHandrail || !this.props.endHandrail) 
+				  && this.props.startHandrail != intersects[0].object.name.replace('.stl', '')
+				  && this.props.endHandrail != intersects[0].object.name.replace('.stl', '')) {
+			  this.props.handleStartEndHandrailsChanged(this.props.startHandrail?'end':'start', intersects[0].object, true);
+		  } 
+		  
+		  // Else if the chosen handrail is the preselected start handrail, clear the start handrail.
+		  else if (this.props.startHandrail == intersects[0].object.name.replace('.stl', '')) {
+			  this.props.handleStartEndHandrailsChanged('start', null, false);
+		  }
+		  
+		  // Else if the chosen handrail is the preselected end handrail, clear the end handrail.
+		  else if (this.props.endHandrail == intersects[0].object.name.replace('.stl', '')) {
+			  this.props.handleStartEndHandrailsChanged('end', null, false);
+		  }
+	  }
+  }
+  
+  /**
+   * PHASE 3 MOD
+   * @author Lincoln Powell/lpowell25@student.umuc.edu
+   * @since 8/3/2018
+   * 
+   * The onDocumentMouseMove function orients the Raycaster, raycaster, object from the camera to the mouse cursor
+   * then evaluates if an intersection occurred between the mouse cursor and a handrail on the event a user
+   * moves the cursor over a handrail.  If an intersection occurred, the mouse cursor will be changed to a pointer; else,
+   * the mouse cursor will be the default cursor.
+   */
+  onDocumentMouseMove(e) {
+	  e.preventDefault();
+	  mouse.x = (e.clientX / window.innerWidth) * 2 - 1;
+	  mouse.y = -(e.clientY / window.innerHeight) * 2 + 1;
+	  raycaster.setFromCamera(mouse, camera);
+	  var intersects = raycaster.intersectObjects(handrailMeshes);
+	  var canvas = document.body.getElementsByTagName('canvas')[0];
+	  if (intersects.length > 0) {
+		  canvas.style.cursor = 'pointer';
+	  } else {
+		  canvas.style.cursor = 'default';
+	  }
+  }
   
   //create glow material
   buildGlow(vert, frag){
@@ -175,12 +256,8 @@ export default class Renderer extends React.Component {
     const {
       // -- set hand-rail color values here --
       hrColor = '#3f5056', //blue gray
-//      hrStartColor = '#0823d1', // blue					PHASE 3 MOD Lincoln Powell/lpowell25@student.umuc.edu 7/1/2018 Commenting out start handrail color to blue
       hrStartColor = '#008000', // green					PHASE 3 MOD Lincoln Powell/lpowell25@student.umuc.edu 7/27/2018 Change start handrail color to green
-//      hrEndColor = '#7744d6', // purple					PHASE 3 MOD Lincoln Powell/lpowell25@student.umuc.edu 7/1/2018 Commenting out end handrail color to purple
       hrEndColor = '#EB0000', // red						PHASE 3 MOD Lincoln Powell/lpowell25@student.umuc.edu 7/9/2018 Change end handrail color to red
-      //hrStartHexColor = 0x0823d1, // blue for light
-      //hrEndHexColor = 0x7744d6, // purple for light
       stationFile,
       handrailFiles,
       strFiles,
@@ -204,7 +281,7 @@ export default class Renderer extends React.Component {
       const mesh = loadMeshFromFile(stationFile);
       this.stationModel = mesh;
       this.scene.add(mesh);
-      this.camera.lookAt(mesh);
+      camera.lookAt(mesh);
       this.stationModelIsDirty = false;
     }
 
@@ -244,8 +321,12 @@ export default class Renderer extends React.Component {
     		let scale = 1;
     		var handrailMesh = loadMeshFromFile(handrailFile, {color}, {scale});
     		
+    		// PHASE 3 MOD Lincoln Powell/lpowell25@student.umuc.edu 8/3/2018
+    		// Add each handrail mesh to the handrailMeshes array.  This array is used to raycast the mouse cursor to each handrail on the model.
+    		handrailMeshes.push(handrailMesh);
+    		
     		// set start/end/route handrail color
-    		if (startHandrail && name === `${startHandrail.value}.stl`) {
+    		if (name === startHandrail + '.stl') {
     			//set color of handrail
     			color = hrStartColor;
     			
@@ -267,14 +348,11 @@ export default class Renderer extends React.Component {
     			handrailMeshClone.scale.multiplyScalar(1.2);
 				
 				//add handrail clone to scene at handrailMesh location
-				handrailMesh.add( handrailMeshClone );
-	
-    			//give it it's own light
-    			//var light = new THREE.PointLight( hrStartHexColor, .5, .3 );
-    		    //handrailMesh.add(light);				
-    		} else if (endHandrail && name === `${endHandrail.value}.stl`) {
+				handrailMesh.add( handrailMeshClone );				
+    		} else if (name === endHandrail + '.stl') {
     			// set color of handrail
     			color = hrEndColor;
+    			
     			// create handrail 
     			handrailMesh = loadMeshFromFile(handrailFile, {color}, {scale});
     			
@@ -294,10 +372,6 @@ export default class Renderer extends React.Component {
 				
 				//add handrail clone to scene at handrailMesh location
 				handrailMesh.add( handrailMeshClone );
-
-    			//give it it's own light
-    			//light = new THREE.PointLight( hrEndHexColor, .5, .3 );
-    		    //handrailMesh.add(light);
     		} else {
     			// refactor and exit early or just loop routes outside for performance
     			routes.forEach(route => { 
@@ -329,11 +403,11 @@ export default class Renderer extends React.Component {
     		}
     		handrailMesh.name = name;
     		this.handrailModels[name] = handrailMesh;
+    		
     		// add handrail mesh to scene
     		this.scene.add(handrailMesh);
     	});
     	strFiles.forEach(strFile => positionModelsBasedOnStrFile(this.handrailModels, strFile));
-    	// bindDomEventsToMeshes(this.handrailModels, this.domEvents, this.domEventsMap);
     }
     this.animate();
   } //end processFiles()
@@ -358,41 +432,41 @@ export default class Renderer extends React.Component {
   
   //handle window
   handleWindowResize() {
-	  this.camera.aspect = window.innerWidth / window.innerHeight;
-	  this.camera.updateProjectionMatrix();
+	  camera.aspect = window.innerWidth / window.innerHeight;
+	  camera.updateProjectionMatrix();
 	  this.renderer.setSize(window.innerWidth, window.innerHeight);
   }
   
   //animate scene movement
   animate() {
-	  requestAnimationFrame(this.animate);
-	  this.camera.lookAt(this.cameraTarget);
-	  this.renderer.render(this.scene, this.camera);
 	  this.stats.update();
+	  var delta = clock.getDelta();
+	  controls.update(delta);
+	  requestAnimationFrame(this.animate);
+	  this.renderer.render(this.scene, camera);
+	  
   }
 
   //render div for state of hovered handrails
   render() {
 	  const {
-		  // addition for load progress ------------------------------- 1 line
 		  loading,
 		  hoveredHandrail
 	  } = this.state;
-	  // addition for load progress ------------------------------- 3 lines
 	  if(loading) { // if your component doesn't have to wait for an async action, remove this block 
 	      return null; // render null when app is not ready
 	  }
 	  return (
 			  <div>
-			  <div className='info-panel'>
-			  {hoveredHandrail &&
+			  	<div className='info-panel'>
+			  		{ hoveredHandrail &&
 				  <div>
-			  <div>{hoveredHandrail.name}</div>
-			  <div>{Object.values(hoveredHandrail.position).join(', ')}</div>
+			  		<div>{hoveredHandrail.name}</div>
+			  		<div>{Object.values(hoveredHandrail.position).join(', ')}</div>
+			  	</div>
+			  		}
 			  </div>
-			  }
-			  </div>
-			  <div ref={c => this.container = c}></div>
+			  	<div ref={c => this.container = c}></div>
 			  </div>
 	  );
   }
@@ -403,8 +477,8 @@ Renderer.propTypes = {
 		stationFile: PropTypes.object,
 		handrailFiles: PropTypes.object.isRequired,
 		strFiles: PropTypes.array.isRequired,
-		startHandrail: PropTypes.object,
-		endHandrail: PropTypes.object,
+		startHandrail: PropTypes.string,			// PHASE 3 MOD Lincoln Powell/lpowell25@student.umuc.edu 8/3/2018 Changed startHandrail PropType from object to string
+		endHandrail: PropTypes.string,				// PHASE 3 MOD Lincoln Powell/lpowell25@student.umuc.edu 8/3/2018 Changed endHandrail PropType from object to string
 		routes: PropTypes.array,
 		wingspan: PropTypes.number,
 };

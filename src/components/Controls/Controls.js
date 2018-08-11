@@ -39,6 +39,7 @@ export default class Controls extends React.Component {
     const handrailDataFiles = {};
     const handrailFiles = [];
     const strFiles = [];
+    
     // load a default stationFile for demo purposes
     this.setState({
       stationFile: {
@@ -160,7 +161,7 @@ export default class Controls extends React.Component {
   createHandrailOptions() {
     return this.state.handrailFiles.map(file => ({
       value: file.name.replace(/\.stl$/, ''),
-      label: file.name.replace(/\.stl$/, '')
+      label: file.name.replace(/\.stl$/, '')      
     }));
   }
 
@@ -323,8 +324,8 @@ Controls.propTypes = {
   onHandrailFilesLoad: PropTypes.func.isRequired,
   onStrFilesLoad: PropTypes.func.isRequired,
   onStartEndHandrailsChange: PropTypes.func.isRequired,
-  startHandrail: PropTypes.object,
-  endHandrail: PropTypes.object,
+  startHandrail: PropTypes.string,							// PHASE 3 MOD Lincoln Powell/lpowell25@student.umuc.edu 8/3/2018 Changed startHandrail PropType from object to string
+  endHandrail: PropTypes.string,							// PHASE 3 MOD Lincoln Powell/lpowell25@student.umuc.edu 8/3/2018 Changed endHandrail PropType from object to string
   routes: PropTypes.array.isRequired,
   visibleRoutes: PropTypes.array.isRequired,
   onReset: PropTypes.func.isRequired,
