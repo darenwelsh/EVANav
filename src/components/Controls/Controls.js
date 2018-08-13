@@ -31,6 +31,8 @@ export default class Controls extends React.Component {
     this.handleStrFilesDrop = this.handleStrFilesDrop.bind(this);
     this.createHandrailOptions = this.createHandrailOptions.bind(this);
     this.submit = this.submit.bind(this);
+    this.secondSubmit = this.secondSubmit.bind(this);
+    this.changeSelectedTabIndex = this.changeSelectedTabIndex.bind(this);
   }
 
   componentDidMount() {
@@ -158,6 +160,11 @@ export default class Controls extends React.Component {
     });
   }
 
+  changeSelectedTabIndex(tab)  {
+   
+   this.props.onCrewTabChange(tab);
+  }
+
   createHandrailOptions() {
     return this.state.handrailFiles.map(file => ({
       value: file.name.replace(/\.stl$/, ''),
@@ -178,6 +185,20 @@ export default class Controls extends React.Component {
     });
   }
 
+  secondSubmit() {
+    //debugger;
+    const {
+      startHandrailSecond,
+      endHandrailSecond,
+      wingspanSecond,
+    } = this.props;
+    this.props.onSecondSumbit({
+      startHandrailSecond,
+      endHandrailSecond,
+      wingspanSecond,
+    });
+  }
+
   render() {
     const {
       stationFile,
@@ -191,13 +212,20 @@ export default class Controls extends React.Component {
     const {
       startHandrail,
       endHandrail,
+      startHandrailSecond,
+      endHandrailSecond,
       onStartEndHandrailsChange,
+      //onSecondStartEndHandrailsChange,
       onRoutesChange,
+      onSecondRoutesChange,
       onReset,
       wingspan,
+      wingspanSecond,
       visibleRoutes,
+      visibleRoutesSecond,
       onWingspanChange,
-    } = this.props;
+      onSecondWingspanChange,
+      } = this.props;
     return (
       <div className='Controls'>
         <Tabs>
@@ -207,58 +235,119 @@ export default class Controls extends React.Component {
             <Tab>Path Results</Tab>
           </TabList>
           <TabPanel>
-            <div className='handrails-selector'>
-              <Select
-                name='startHandrail'
-                placeholder='Select start handrail...'
-                value={startHandrail}
-                options={this.createHandrailOptions()}
-                onChange={option => onStartEndHandrailsChange('start', option)}
-              />
-              <Select
-                name='endHandrail'
-                placeholder='Select end handrail...'
-                value={endHandrail}
-                options={this.createHandrailOptions()}
-                onChange={option => onStartEndHandrailsChange('end', option)}
-              />
-            </div>
-            <div className='wingspan-control'>
-              Wingspan: {wingspan} ft
-              <Slider value={wingspan}
-                onChange={onWingspanChange}
-                min={4}
-                max={7}
-                marks={{
-                  4: '4 ft',
-                  5: '5 ft',
-                  6: '6 ft',
-                  7: '7 ft'
-                }}
-              />
-             <br />
-             </div>
-           <div className='route-select-control'>
-              <strong>Visible Paths</strong>
-              <CheckboxGroup className='route-select-container' name="routes" value={visibleRoutes} onChange={onRoutesChange}>
-                {this.defaultRoutes.map(route => (
-                  <label style={{borderBottom: `${route.color} 5px solid`}} key={route.value}>
-                    <Checkbox value={route.value} />
-                    Route {route.value}
-                  </label>
-                ))}
-              </CheckboxGroup>
-            </div>
-             <div className='action-control'>
-              <button className='button-primary' onClick={this.submit}>Go</button>
-              <button className='button-primary' onClick={onReset}>Reset</button>
-            </div>
-          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-          </TabPanel>
+            <Tabs forceRenderTabPanel>
+              <TabList>
+             <Tab onClick={this.changeSelectedTabIndex.bind(this,'CrewOne')} >Crew Member 1</Tab>
+             <Tab onClick={this.changeSelectedTabIndex.bind(this, 'CrewTwo')} >Crew Member 2</Tab> 
+              </TabList>
+                <TabPanel>
+                  <div className='handrails-selector'>
+                    <Select
+                      name='startHandrail'
+                      placeholder='Select start handrail...'
+                      value={startHandrail}
+                      options={this.createHandrailOptions()}
+                      onChange={option => onStartEndHandrailsChange('start', option)}
+                    />
+                    <Select
+                      name='endHandrail'
+                      placeholder='Select end handrail...'
+                      value={endHandrail}
+                      options={this.createHandrailOptions()}
+                      onChange={option => onStartEndHandrailsChange('end', option)}
+                    />
+                  </div>
+                  <div className='wingspan-control'>
+                    Wingspan: {wingspan} ft
+                    <Slider value={wingspan}
+                      onChange={onWingspanChange}
+                      min={4}
+                      max={7}
+                      marks={{
+                        4: '4 ft',
+                        5: '5 ft',
+                        6: '6 ft',
+                        7: '7 ft'
+                      }}
+                    />
+                  <br />
+                  </div>
+                <div className='route-select-control'>
+                    <strong>Visible Paths</strong>
+                    <CheckboxGroup className='route-select-container' name="routes" value={visibleRoutes} onChange={onRoutesChange}>
+                      {this.defaultRoutes.map(route => (
+                        <label style={{borderBottom: `${route.color} 5px solid`}} key={route.value}>
+                          <Checkbox value={route.value} />
+                          Route {route.value}
+                        </label>
+                      ))}
+                    </CheckboxGroup>
+                  </div>
+                  <div className='action-control'>
+                    <button className='button-primary' onClick={this.submit}>Go</button>
+                    <button className='button-primary' onClick={onReset}>Reset</button>
+                  </div>
+                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                </TabPanel>
+                <TabPanel>
+                  <div className='handrails-selector'>
+                    <Select
+                      name='startHandrail'
+                      placeholder='Select start handrail...'
+                      value={startHandrailSecond}
+                      options={this.createHandrailOptions()}
+                      onChange={option => onStartEndHandrailsChange('start', option)}
+                    />
+                    <Select
+                      name='endHandrail'
+                      placeholder='Select end handrail...'
+                      value={endHandrailSecond}
+                      options={this.createHandrailOptions()}
+                      onChange={option => onStartEndHandrailsChange('end', option)}
+                    />
+                  </div>
+                  <div className='wingspan-control'>
+                    Wingspan: {wingspanSecond} ft
+                    <Slider value={wingspanSecond}
+                      onChange={onSecondWingspanChange}
+                      min={4}
+                      max={7}
+                      marks={{
+                        4: '4 ft',
+                        5: '5 ft',
+                        6: '6 ft',
+                        7: '7 ft'
+                      }}
+                    />
+                  <br />
+                  </div>
+                <div className='route-select-control'>
+                    <strong>Visible Paths</strong>
+                    <CheckboxGroup className='route-select-container' name="routes" value={visibleRoutesSecond} onChange={onSecondRoutesChange}>
+                      {this.defaultRoutes.map(route => (
+                        <label style={{borderBottom: `${route.color} 5px solid`}} key={route.value}>
+                          <Checkbox value={route.value} />
+                          Route {route.value}
+                        </label>
+                      ))}
+                    </CheckboxGroup>
+                  </div>
+                  <div className='action-control'>
+                    <button className='button-primary' onClick={this.secondSubmit}>Go</button>
+                    <button className='button-primary' onClick={onReset}>Reset</button>
+                  </div>
+                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                </TabPanel>
+            </Tabs>
+          </TabPanel> 
           <TabPanel>
             <div className='file-controls'>
               <div className='station-controls'>
@@ -324,13 +413,23 @@ Controls.propTypes = {
   onHandrailFilesLoad: PropTypes.func.isRequired,
   onStrFilesLoad: PropTypes.func.isRequired,
   onStartEndHandrailsChange: PropTypes.func.isRequired,
+  //onSecondStartEndHandrailsChange: PropTypes.func.isRequired,
   startHandrail: PropTypes.string,							// PHASE 3 MOD Lincoln Powell/lpowell25@student.umuc.edu 8/3/2018 Changed startHandrail PropType from object to string
+  startHandrailSecond: PropTypes.string,
   endHandrail: PropTypes.string,							// PHASE 3 MOD Lincoln Powell/lpowell25@student.umuc.edu 8/3/2018 Changed endHandrail PropType from object to string
+  endHandrailSecond: PropTypes.string,
   routes: PropTypes.array.isRequired,
+  routesSecond: PropTypes.array.isRequired,
   visibleRoutes: PropTypes.array.isRequired,
+  visibleRoutesSecond: PropTypes.array.isRequired,
   onReset: PropTypes.func.isRequired,
   onWingspanChange: PropTypes.func.isRequired,
+  onSecondWingspanChange: PropTypes.func.isRequired,
   onRoutesChange: PropTypes.func.isRequired,
+  onSecondRoutesChange: PropTypes.func.isRequired,
   onSubmit: PropTypes.func.isRequired,
+  onSecondSumbit: PropTypes.func.isRequired,
   wingspan: PropTypes.number.isRequired,
+  wingspanSecond: PropTypes.number.isRequired,
+  onCrewTabChange : PropTypes.func.isRequired
 };
