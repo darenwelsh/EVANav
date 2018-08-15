@@ -1,5 +1,7 @@
-.git
+Dockerfile
+.dockerignore
+.git*
 node_modules
 coverage
-README
+README.md
 LICENSE
