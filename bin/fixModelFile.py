@@ -37,7 +37,7 @@ def main():
     global i
     i = 0
     if len(sys.argv) < 2:
- 			print('Usage: specify a folder with stl files to add endfacet statement');
+ 			print('Usage: specify a folder with stl files to add endfacet statement')
 			exit() 
     print ("getting list of files from " + sys.argv[1])
     openFiles()

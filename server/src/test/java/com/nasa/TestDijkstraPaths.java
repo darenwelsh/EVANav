@@ -35,7 +35,7 @@ public class TestDijkstraPaths {
         String source = input.nextLine();
         System.out.println("Enter destination node: ");
         String destination = input.nextLine();
-
+        input.close();
         System.out.println();
         tdjk.ExecutePaths(source, destination);
     }

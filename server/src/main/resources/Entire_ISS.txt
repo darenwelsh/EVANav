@@ -1,0 +1,3588 @@
+unique_node_name: 2009_gap_spanner
+geometry_file_name: 2009_gap_spanner.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 180.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: 2022_2024_gap_spanner
+geometry_file_name: 2022_2024_gap_spanner.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: 2029_36_37_gap_spanner
+geometry_file_name: 2029_36_37_gap_spanner.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: 2339_gap_spanner
+geometry_file_name: 2339_gap_spanner.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 180.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: 2B_5377
+geometry_file_name: 2B_5377.stl
+x: 2.5 y: 16.0 z: -19.0
+pitch: 0.0 yaw: 202.5 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: 2B_5378
+geometry_file_name: 2B_5378.stl
+x: 2.5 y: 16.0 z: 1.0
+pitch: 0.0 yaw: 202.5 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: 2B_5379
+geometry_file_name: 2B_5379.stl
+x: 17.5 y: -18.0 z: 6.5
+pitch: 90.0 yaw: 0.0 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: 2B_5380
+geometry_file_name: 2B_5380.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: 4B_5381
+geometry_file_name: 4B_5381.stl
+x: 2.5 y: 16.0 z: -19.0
+pitch: 0.0 yaw: 202.5 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: 4B_5382
+geometry_file_name: 4B_5382.stl
+x: 2.5 y: 16.0 z: 1.0
+pitch: 0.0 yaw: 202.5 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: 4B_5383
+geometry_file_name: 4B_5383.stl
+x: 17.5 y: -18.0 z: 6.5
+pitch: 90.0 yaw: 0.0 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: 4B_5384
+geometry_file_name: 4B_5384.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: 5303_gap_spanner
+geometry_file_name: 5303_gap_spanner.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: 5328_5327_gap_spanner
+geometry_file_name: 5328_5327_gap_spanner.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: 5328_5335_gap_spanner
+geometry_file_name: 5328_5335_gap_spanner.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: 5328_5336_gap_spanner
+geometry_file_name: 5328_5336_gap_spanner.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: 5339_gap_spanner
+geometry_file_name: 5339_gap_spanner.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: 5341_gap_spanner
+geometry_file_name: 5341_gap_spanner.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: AL_0500
+geometry_file_name: AL_0500.stl
+x: 37.4 y: -79.82 z: -30.64
+pitch: 0.0 yaw: 0.0 roll: -69.0
+parent_node_name: SSREF
+
+unique_node_name: AL_0501
+geometry_file_name: AL_0501.stl
+x: 37.4 y: -85.5 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: -90.0
+parent_node_name: SSREF
+
+unique_node_name: AL_0502
+geometry_file_name: AL_0502.stl
+x: 36.0 y: -82.19 z: 23.57
+pitch: 0.0 yaw: 0.0 roll: -106.01
+parent_node_name: SSREF
+
+unique_node_name: AL_0503
+geometry_file_name: AL_0503.stl
+x: 36.0 y: -73.79 z: 43.19
+pitch: 0.0 yaw: 0.0 roll: -120.35
+parent_node_name: SSREF
+
+unique_node_name: AL_0504
+geometry_file_name: AL_0504.stl
+x: 43.0 y: -47.59 z: 47.59
+pitch: -14.43 yaw: -14.0 roll: 133.22
+parent_node_name: SSREF
+
+unique_node_name: AL_0505
+geometry_file_name: AL_0505.stl
+x: 76.0 y: -36.0 z: 25.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: AL_0506
+geometry_file_name: AL_0506.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: AL_0507
+geometry_file_name: AL_0507.stl
+x: -37.4 y: 85.5 z: 0.0
+pitch: -180.0 yaw: 0.0 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: AL_0508
+geometry_file_name: AL_0508.stl
+x: -11.8 y: 86.85 z: -10.66
+pitch: -180.0 yaw: 0.0 roll: -83.0
+parent_node_name: SSREF
+
+unique_node_name: AL_0509
+geometry_file_name: AL_0509.stl
+x: 11.8 y: 86.85 z: -10.66
+pitch: -180.0 yaw: 0.0 roll: -83.0
+parent_node_name: SSREF
+
+unique_node_name: AL_0510
+geometry_file_name: AL_0510.stl
+x: 37.4 y: 85.5 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: AL_0511
+geometry_file_name: AL_0511.stl
+x: 37.4 y: 73.67 z: 43.39
+pitch: 0.0 yaw: 0.0 roll: 120.5
+parent_node_name: SSREF
+
+unique_node_name: AL_0512
+geometry_file_name: AL_0512.stl
+x: 43.0 y: 47.59 z: 47.59
+pitch: -14.43 yaw: 14.0 roll: 46.78
+parent_node_name: SSREF
+
+unique_node_name: AL_0513
+geometry_file_name: AL_0513.stl
+x: 72.0 y: 26.81 z: 22.5
+pitch: 0.0 yaw: 0.0 roll: -50.0
+parent_node_name: SSREF
+
+unique_node_name: AL_0518
+geometry_file_name: AL_0518.stl
+x: -37.4 y: -73.67 z: 43.39
+pitch: -180.0 yaw: 0.0 roll: -59.5
+parent_node_name: SSREF
+
+unique_node_name: AL_0519
+geometry_file_name: AL_0519.stl
+x: -37.4 y: -85.5 z: 0.0
+pitch: -180.0 yaw: 0.0 roll: -90.0
+parent_node_name: SSREF
+
+unique_node_name: AL_0520
+geometry_file_name: AL_0520.stl
+x: -37.4 y: -73.67 z: -43.39
+pitch: -180.0 yaw: 0.0 roll: -120.5
+parent_node_name: SSREF
+
+unique_node_name: AL_0521
+geometry_file_name: AL_0521.stl
+x: -37.4 y: -43.39 z: -73.67
+pitch: -180.0 yaw: 0.0 roll: -149.5
+parent_node_name: SSREF
+
+unique_node_name: AL_0522
+geometry_file_name: AL_0522.stl
+x: -37.4 y: 0.0 z: -85.5
+pitch: -180.0 yaw: 0.0 roll: -180.0
+parent_node_name: SSREF
+
+unique_node_name: AL_0523
+geometry_file_name: AL_0523.stl
+x: -37.4 y: 43.39 z: -73.67
+pitch: -180.0 yaw: 0.0 roll: 149.5
+parent_node_name: SSREF
+
+unique_node_name: AL_0524
+geometry_file_name: AL_0524.stl
+x: -37.4 y: 73.67 z: -43.39
+pitch: -180.0 yaw: 0.0 roll: 120.0
+parent_node_name: SSREF
+
+unique_node_name: AL_0525
+geometry_file_name: AL_0525.stl
+x: -36.0 y: 75.07 z: 40.92
+pitch: -180.0 yaw: 0.0 roll: 61.41
+parent_node_name: SSREF
+
+unique_node_name: AL_0526
+geometry_file_name: AL_0526.stl
+x: -37.4 y: 43.39 z: 73.67
+pitch: -180.0 yaw: 0.0 roll: 30.5
+parent_node_name: SSREF
+
+unique_node_name: AL_0527
+geometry_file_name: AL_0527.stl
+x: -37.4 y: 0.0 z: 85.5
+pitch: -180.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: AL_0528
+geometry_file_name: AL_0528.stl
+x: -36.0 y: -29.44 z: 80.27
+pitch: -180.0 yaw: 0.0 roll: -20.14
+parent_node_name: SSREF
+
+unique_node_name: AL_0529
+geometry_file_name: AL_0529.stl
+x: -36.0 y: -50.19 z: 69.22
+pitch: -180.0 yaw: 0.0 roll: -35.94
+parent_node_name: SSREF
+
+unique_node_name: AL_0530
+geometry_file_name: AL_0530.stl
+x: -11.8 y: -79.17 z: 37.26
+pitch: -180.0 yaw: 0.0 roll: 115.2
+parent_node_name: SSREF
+
+unique_node_name: AL_0531
+geometry_file_name: AL_0531.stl
+x: -11.8 y: -86.85 z: -10.66
+pitch: -180.0 yaw: 0.0 roll: 83.0
+parent_node_name: SSREF
+
+unique_node_name: AL_0532
+geometry_file_name: AL_0532.stl
+x: -11.8 y: -72.11 z: -49.56
+pitch: -180.0 yaw: 0.0 roll: 55.5
+parent_node_name: SSREF
+
+unique_node_name: AL_0533
+geometry_file_name: AL_0533.stl
+x: -11.8 y: 21.91 z: -84.71
+pitch: -180.0 yaw: 0.0 roll: -14.5
+parent_node_name: SSREF
+
+unique_node_name: AL_0534
+geometry_file_name: AL_0534.stl
+x: 11.8 y: -79.17 z: 37.26
+pitch: -180.0 yaw: 0.0 roll: 115.2
+parent_node_name: SSREF
+
+unique_node_name: AL_0535
+geometry_file_name: AL_0535.stl
+x: 11.8 y: -86.85 z: -10.66
+pitch: -180.0 yaw: 0.0 roll: 83.0
+parent_node_name: SSREF
+
+unique_node_name: AL_0536
+geometry_file_name: AL_0536.stl
+x: 11.8 y: -72.11 z: -49.56
+pitch: -180.0 yaw: 0.0 roll: 55.5
+parent_node_name: SSREF
+
+unique_node_name: AL_0537
+geometry_file_name: AL_0537.stl
+x: 11.8 y: 21.91 z: -84.71
+pitch: -180.0 yaw: 0.0 roll: -14.5
+parent_node_name: SSREF
+
+unique_node_name: AL_0538
+geometry_file_name: AL_0538.stl
+x: 37.4 y: -62.74 z: -57.79
+pitch: 0.0 yaw: 0.0 roll: -47.35
+parent_node_name: SSREF
+
+unique_node_name: AL_0539
+geometry_file_name: AL_0539.stl
+x: 37.4 y: -39.02 z: -76.08
+pitch: 0.0 yaw: 0.0 roll: -27.15
+parent_node_name: SSREF
+
+unique_node_name: AL_0540
+geometry_file_name: AL_0540.stl
+x: 37.4 y: 0.0 z: -85.5
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: AL_0541
+geometry_file_name: AL_0541.stl
+x: 37.4 y: 43.39 z: -73.67
+pitch: 0.0 yaw: 0.0 roll: 30.5
+parent_node_name: SSREF
+
+unique_node_name: AL_0542
+geometry_file_name: AL_0542.stl
+x: 37.4 y: 73.67 z: -43.39
+pitch: 0.0 yaw: 0.0 roll: 59.5
+parent_node_name: SSREF
+
+unique_node_name: AL_0543
+geometry_file_name: AL_0543.stl
+x: 37.4 y: 43.39 z: 73.67
+pitch: 0.0 yaw: 0.0 roll: 149.5
+parent_node_name: SSREF
+
+unique_node_name: AL_0544
+geometry_file_name: AL_0544.stl
+x: 36.0 y: 0.0 z: 85.5
+pitch: 0.0 yaw: 0.0 roll: -180.0
+parent_node_name: SSREF
+
+unique_node_name: AL_0545
+geometry_file_name: AL_0545.stl
+x: 36.0 y: -27.77 z: 80.86
+pitch: 0.0 yaw: 0.0 roll: -161.05
+parent_node_name: SSREF
+
+unique_node_name: AL_0546
+geometry_file_name: AL_0546.stl
+x: 63.0 y: -49.33 z: 69.83
+pitch: 0.0 yaw: 0.0 roll: -144.76
+parent_node_name: SSREF
+
+unique_node_name: AL_0547
+geometry_file_name: AL_0547.stl
+x: 43.0 y: -47.59 z: -47.59
+pitch: 14.43 yaw: -14.0 roll: -133.22
+parent_node_name: SSREF
+
+unique_node_name: AL_0548
+geometry_file_name: AL_0548.stl
+x: 43.0 y: 0.0 z: -67.3
+pitch: 20.0 yaw: 0.0 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: AL_0549
+geometry_file_name: AL_0549.stl
+x: 43.0 y: 47.59 z: -47.59
+pitch: 14.43 yaw: 14.0 roll: -46.78
+parent_node_name: SSREF
+
+unique_node_name: AL_0550
+geometry_file_name: AL_0550.stl
+x: 43.0 y: 0.0 z: 67.3
+pitch: -20.0 yaw: 0.0 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: AL_0551
+geometry_file_name: AL_0551.stl
+x: 76.0 y: -36.0 z: -25.0
+pitch: 0.0 yaw: 0.0 roll: -180.0
+parent_node_name: SSREF
+
+unique_node_name: AL_0552
+geometry_file_name: AL_0552.stl
+x: 72.0 y: 0.0 z: -35.0
+pitch: 0.0 yaw: 0.0 roll: -180.0
+parent_node_name: SSREF
+
+unique_node_name: AL_0553
+geometry_file_name: AL_0553.stl
+x: 72.0 y: 26.81 z: -22.5
+pitch: 0.0 yaw: 0.0 roll: -130.0
+parent_node_name: SSREF
+
+unique_node_name: AL_0554
+geometry_file_name: AL_0554.stl
+x: 72.0 y: 0.0 z: 35.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: AL_0555
+geometry_file_name: AL_0555.stl
+x: 125.0 y: -36.0 z: 25.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: AL_0556
+geometry_file_name: AL_0556.stl
+x: 125.0 y: -36.0 z: -25.0
+pitch: 0.0 yaw: 0.0 roll: -180.0
+parent_node_name: SSREF
+
+unique_node_name: AL_0557
+geometry_file_name: AL_0557.stl
+x: 120.0 y: 0.0 z: -35.0
+pitch: 0.0 yaw: 0.0 roll: -180.0
+parent_node_name: SSREF
+
+unique_node_name: AL_0558
+geometry_file_name: AL_0558.stl
+x: 120.0 y: 29.16 z: -22.78
+pitch: 0.0 yaw: 0.0 roll: -128.0
+parent_node_name: SSREF
+
+unique_node_name: AL_0559
+geometry_file_name: AL_0559.stl
+x: 120.0 y: 28.34 z: 23.78
+pitch: 0.0 yaw: 0.0 roll: -50.0
+parent_node_name: SSREF
+
+unique_node_name: AL_0560
+geometry_file_name: AL_0560.stl
+x: 153.0 y: -26.87 z: 26.87
+pitch: 0.0 yaw: 0.0 roll: 45.0
+parent_node_name: SSREF
+
+unique_node_name: AL_0561
+geometry_file_name: AL_0561.stl
+x: 153.0 y: -26.87 z: -26.87
+pitch: 0.0 yaw: 0.0 roll: 135.0
+parent_node_name: SSREF
+
+unique_node_name: AL_0562
+geometry_file_name: AL_0562.stl
+x: 153.0 y: 26.87 z: -26.87
+pitch: 0.0 yaw: 0.0 roll: -135.0
+parent_node_name: SSREF
+
+unique_node_name: AL_0563
+geometry_file_name: AL_0563.stl
+x: 153.0 y: 26.87 z: 26.87
+pitch: 0.0 yaw: 0.0 roll: -45.0
+parent_node_name: SSREF
+
+unique_node_name: AL_0564
+geometry_file_name: AL_0564.stl
+x: 164.5 y: -13.44 z: 13.44
+pitch: 90.0 yaw: 45.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: AL_0565
+geometry_file_name: AL_0565.stl
+x: 164.5 y: -13.44 z: -13.44
+pitch: -90.0 yaw: 45.0 roll: 180.0
+parent_node_name: SSREF
+
+unique_node_name: AL_0566
+geometry_file_name: AL_0566.stl
+x: 164.5 y: 13.44 z: -13.44
+pitch: -90.0 yaw: -45.0 roll: 180.0
+parent_node_name: SSREF
+
+unique_node_name: AL_0567
+geometry_file_name: AL_0567.stl
+x: 164.5 y: 13.44 z: 13.44
+pitch: 90.0 yaw: -45.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: AL_GAP_SPANNER
+geometry_file_name: AL_GAP_SPANNER.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: AL_LAB_GAP_SPANNER
+geometry_file_name: AL_LAB_GAP_SPANNER.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: AL_TOOLBOX_1_H
+geometry_file_name: AL_TOOLBOX_1_H.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: AL_TOOLBOX_2_H
+geometry_file_name: AL_TOOLBOX_2_H.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: AMS_H1
+geometry_file_name: AMS_H1.stl
+x: -45.0 y: -74.5 z: 1.3
+pitch: -90.0 yaw: -43.5 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: AMS_H2
+geometry_file_name: AMS_H2.stl
+x: -39.4 y: -83.6 z: 28.7
+pitch: 90.0 yaw: 95.0 roll: -90.0
+parent_node_name: SSREF
+
+unique_node_name: AMS_H3
+geometry_file_name: AMS_H3.stl
+x: 15.0 y: -83.5 z: 27.5
+pitch: 0.0 yaw: 0.0 roll: 5.0
+parent_node_name: SSREF
+
+unique_node_name: AMS_H4
+geometry_file_name: AMS_H4.stl
+x: 39.4 y: -83.6 z: 28.7
+pitch: 90.0 yaw: 95.0 roll: -90.0
+parent_node_name: SSREF
+
+unique_node_name: AMS_H5
+geometry_file_name: AMS_H5.stl
+x: 45.0 y: -74.5 z: 1.3
+pitch: 90.0 yaw: 43.5 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: AMS_H6
+geometry_file_name: AMS_H6.stl
+x: 45.0 y: -54.6 z: -19.5
+pitch: 90.0 yaw: 43.5 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: AMS_H7
+geometry_file_name: AMS_H7.stl
+x: -30.2 y: -14.5 z: -70.5
+pitch: -90.0 yaw: -41.5 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: AMS_H8
+geometry_file_name: AMS_H8.stl
+x: -30.2 y: 14.5 z: -70.5
+pitch: -90.0 yaw: 41.5 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: AMS_H9
+geometry_file_name: AMS_H9.stl
+x: 36.25 y: -36.25 z: -50.25
+pitch: -60.0 yaw: -27.0 roll: 140.0
+parent_node_name: SSREF
+
+unique_node_name: CETA_LIGHT_BOOM1H
+geometry_file_name: CETA_LIGHT_BOOM1H.stl
+x: -3.0 y: -24.0 z: 0.0
+pitch: -90.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: CETA_LIGHT_BOOM2H
+geometry_file_name: CETA_LIGHT_BOOM2H.stl
+x: -3.0 y: -24.0 z: 0.0
+pitch: -90.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: COL_0900
+geometry_file_name: COL_0900.stl
+x: 66.81 y: 78.39 z: -11.64
+pitch: 90.0 yaw: -8.31 roll: -153.84
+parent_node_name: SSREF
+
+unique_node_name: COL_0901
+geometry_file_name: COL_0901.stl
+x: 66.81 y: 78.27 z: 12.42
+pitch: 90.0 yaw: 9.09 roll: -155.14
+parent_node_name: SSREF
+
+unique_node_name: COL_0902
+geometry_file_name: COL_0902.stl
+x: 66.95 y: 64.02 z: 47.3
+pitch: 90.0 yaw: 36.44 roll: -158.58
+parent_node_name: SSREF
+
+unique_node_name: COL_0903
+geometry_file_name: COL_0903.stl
+x: 66.99 y: 47.09 z: 64.4
+pitch: 90.0 yaw: 53.82 roll: -157.12
+parent_node_name: SSREF
+
+unique_node_name: COL_0904
+geometry_file_name: COL_0904.stl
+x: 93.53 y: 37.98 z: 82.4
+pitch: 0.0 yaw: 0.0 roll: -24.75
+parent_node_name: SSREF
+
+unique_node_name: COL_0905
+geometry_file_name: COL_0905.stl
+x: 120.31 y: 50.17 z: 75.61
+pitch: 0.0 yaw: 0.0 roll: -33.57
+parent_node_name: SSREF
+
+unique_node_name: COL_0906
+geometry_file_name: COL_0906.stl
+x: 149.79 y: 37.98 z: 82.4
+pitch: 0.0 yaw: 0.0 roll: -24.75
+parent_node_name: SSREF
+
+unique_node_name: COL_0907
+geometry_file_name: COL_0907.stl
+x: 162.44 y: 50.44 z: 75.61
+pitch: 0.0 yaw: 0.0 roll: -33.57
+parent_node_name: SSREF
+
+unique_node_name: COL_0908
+geometry_file_name: COL_0908.stl
+x: 192.89 y: 37.98 z: 82.4
+pitch: 0.0 yaw: 0.0 roll: -24.75
+parent_node_name: SSREF
+
+unique_node_name: COL_0909
+geometry_file_name: COL_0909.stl
+x: 206.21 y: 50.17 z: 75.61
+pitch: 0.0 yaw: 0.0 roll: -33.57
+parent_node_name: SSREF
+
+unique_node_name: COL_0910
+geometry_file_name: COL_0910.stl
+x: 235.62 y: 37.98 z: 82.4
+pitch: 0.0 yaw: 0.0 roll: -24.75
+parent_node_name: SSREF
+
+unique_node_name: COL_0911
+geometry_file_name: COL_0911.stl
+x: 251.41 y: 50.17 z: 75.61
+pitch: 0.0 yaw: 0.0 roll: -33.57
+parent_node_name: SSREF
+
+unique_node_name: COL_0912
+geometry_file_name: COL_0912.stl
+x: 282.87 y: 48.85 z: 70.08
+pitch: 90.0 yaw: 55.11 roll: -29.44
+parent_node_name: SSREF
+
+unique_node_name: COL_0913
+geometry_file_name: COL_0913.stl
+x: 67.09 y: 12.26 z: 78.9
+pitch: 90.0 yaw: 81.19 roll: -155.34
+parent_node_name: SSREF
+
+unique_node_name: COL_0914
+geometry_file_name: COL_0914.stl
+x: 67.11 y: -11.83 z: 78.83
+pitch: -90.0 yaw: 81.54 roll: 24.26
+parent_node_name: SSREF
+
+unique_node_name: COL_0915
+geometry_file_name: COL_0915.stl
+x: 66.98 y: -46.6 z: 64.48
+pitch: -90.0 yaw: 53.59 roll: 24.44
+parent_node_name: SSREF
+
+unique_node_name: COL_0916
+geometry_file_name: COL_0916.stl
+x: 66.9 y: -63.63 z: 47.5
+pitch: -90.0 yaw: 36.25 roll: 23.67
+parent_node_name: SSREF
+
+unique_node_name: COL_0917
+geometry_file_name: COL_0917.stl
+x: 66.81 y: -78.23 z: 12.71
+pitch: -90.0 yaw: 8.4 roll: 25.24
+parent_node_name: SSREF
+
+unique_node_name: COL_0918
+geometry_file_name: COL_0918.stl
+x: 66.81 y: -78.21 z: -11.46
+pitch: -90.0 yaw: -8.76 roll: 24.62
+parent_node_name: SSREF
+
+unique_node_name: COL_0919
+geometry_file_name: COL_0919.stl
+x: 66.68 y: -63.89 z: -46.29
+pitch: -90.0 yaw: -35.94 roll: 25.99
+parent_node_name: SSREF
+
+unique_node_name: COL_0920
+geometry_file_name: COL_0920.stl
+x: 66.59 y: -48.81 z: -63.23
+pitch: -90.0 yaw: -53.4 roll: 24.48
+parent_node_name: SSREF
+
+unique_node_name: COL_0921
+geometry_file_name: COL_0921.stl
+x: 66.55 y: -12.05 z: -77.77
+pitch: -90.0 yaw: -81.3 roll: 24.02
+parent_node_name: SSREF
+
+unique_node_name: COL_0922
+geometry_file_name: COL_0922.stl
+x: 66.55 y: 12.15 z: -77.78
+pitch: 90.0 yaw: -81.16 roll: -156.15
+parent_node_name: SSREF
+
+unique_node_name: COL_0923
+geometry_file_name: COL_0923.stl
+x: 66.81 y: 47.12 z: -63.72
+pitch: 90.0 yaw: -53.53 roll: -156.22
+parent_node_name: SSREF
+
+unique_node_name: COL_0924
+geometry_file_name: COL_0924.stl
+x: 66.81 y: 66.81 z: -46.55
+pitch: 90.0 yaw: -36.08 roll: -156.31
+parent_node_name: SSREF
+
+unique_node_name: COL_0925
+geometry_file_name: COL_0925.stl
+x: 56.06 y: 0.1 z: 56.33
+pitch: 90.0 yaw: 90.0 roll: -155.66
+parent_node_name: SSREF
+
+unique_node_name: COL_0926
+geometry_file_name: COL_0926.stl
+x: 55.85 y: -55.56 z: -55.56
+pitch: -90.0 yaw: 0.0 roll: 24.12
+parent_node_name: SSREF
+
+unique_node_name: COL_0927
+geometry_file_name: COL_0927.stl
+x: 55.72 y: 0.0 z: -55.05
+pitch: -90.0 yaw: -89.89 roll: 24.34
+parent_node_name: SSREF
+
+unique_node_name: COL_0928
+geometry_file_name: COL_0928.stl
+x: 55.89 y: 55.79 z: 0.46
+pitch: 90.0 yaw: 0.0 roll: -155.88
+parent_node_name: SSREF
+
+unique_node_name: COL_0929
+geometry_file_name: COL_0929.stl
+x: 95.0 y: 7.89 z: 90.16
+pitch: 0.0 yaw: 0.0 roll: -5.0
+parent_node_name: SSREF
+
+unique_node_name: COL_0930
+geometry_file_name: COL_0930.stl
+x: 95.0 y: -31.0 z: 85.0
+pitch: 0.0 yaw: 0.0 roll: 20.0
+parent_node_name: SSREF
+
+unique_node_name: COL_0931
+geometry_file_name: COL_0931.stl
+x: 154.0 y: 64.0 z: 64.0
+pitch: 0.0 yaw: 0.0 roll: -45.0
+parent_node_name: SSREF
+
+unique_node_name: COL_0932
+geometry_file_name: COL_0932.stl
+x: 246.5 y: -74.1 z: 51.9
+pitch: 0.0 yaw: 0.0 roll: 55.0
+parent_node_name: SSREF
+
+unique_node_name: COL_0933
+geometry_file_name: COL_0933.stl
+x: 265.0 y: 23.3 z: 86.9
+pitch: 90.0 yaw: 75.0 roll: -90.0
+parent_node_name: SSREF
+
+unique_node_name: COL_0934
+geometry_file_name: COL_0934.stl
+x: 265.0 y: -23.3 z: 86.9
+pitch: -90.0 yaw: 75.0 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: COL_0935
+geometry_file_name: COL_0935.stl
+x: 265.0 y: -23.3 z: -86.9
+pitch: -90.0 yaw: -75.0 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: COL_0936
+geometry_file_name: COL_0936.stl
+x: 265.0 y: 23.3 z: -86.9
+pitch: 90.0 yaw: -75.0 roll: -90.0
+parent_node_name: SSREF
+
+unique_node_name: COL_0937
+geometry_file_name: COL_0937.stl
+x: 257.5 y: 74.1 z: -51.9
+pitch: 0.0 yaw: 0.0 roll: -125.0
+parent_node_name: SSREF
+
+unique_node_name: COL_0938
+geometry_file_name: COL_0938.stl
+x: 287.31 y: 73.34 z: 25.05
+pitch: 90.0 yaw: 18.9 roll: -28.6
+parent_node_name: SSREF
+
+unique_node_name: COL_0939
+geometry_file_name: COL_0939.stl
+x: 287.08 y: 73.46 z: -25.38
+pitch: 90.0 yaw: -18.9 roll: -27.65
+parent_node_name: SSREF
+
+unique_node_name: COL_0940
+geometry_file_name: COL_0940.stl
+x: 283.97 y: 47.36 z: -67.82
+pitch: 90.0 yaw: -55.09 roll: -32.05
+parent_node_name: SSREF
+
+unique_node_name: COL_0941
+geometry_file_name: COL_0941.stl
+x: 287.2 y: -44.05 z: -63.37
+pitch: -90.0 yaw: -55.05 roll: 149.35
+parent_node_name: SSREF
+
+unique_node_name: COL_0942
+geometry_file_name: COL_0942.stl
+x: 287.18 y: -73.27 z: -25.4
+pitch: -90.0 yaw: -18.91 roll: 152.74
+parent_node_name: SSREF
+
+unique_node_name: COL_0943
+geometry_file_name: COL_0943.stl
+x: 187.26 y: -73.26 z: 25.18
+pitch: -90.0 yaw: 18.98 roll: 150.41
+parent_node_name: SSREF
+
+unique_node_name: COL_0944
+geometry_file_name: COL_0944.stl
+x: 187.55 y: -44.15 z: 63.16
+pitch: -90.0 yaw: 54.99 roll: 149.35
+parent_node_name: SSREF
+
+unique_node_name: COL_0945
+geometry_file_name: COL_0945.stl
+x: 294.39 y: 35.81 z: 54.83
+pitch: 55.42 yaw: -28.25 roll: -18.07
+parent_node_name: SSREF
+
+unique_node_name: COL_0946
+geometry_file_name: COL_0946.stl
+x: 293.97 y: 35.81 z: -55.16
+pitch: -55.46 yaw: -28.14 roll: -162.01
+parent_node_name: SSREF
+
+unique_node_name: COL_0947
+geometry_file_name: COL_0947.stl
+x: 294.07 y: -35.66 z: -55.1
+pitch: -55.49 yaw: 28.04 roll: 162.09
+parent_node_name: SSREF
+
+unique_node_name: COL_0948
+geometry_file_name: COL_0948.stl
+x: 294.41 y: -35.58 z: 54.87
+pitch: 55.47 yaw: 28.11 roll: 17.97
+parent_node_name: SSREF
+
+unique_node_name: COL_0949
+geometry_file_name: COL_0949.stl
+x: 300.61 y: 0.0 z: -51.42
+pitch: 0.0 yaw: -90.0 roll: -107.0
+parent_node_name: SSREF
+
+unique_node_name: COL_0950
+geometry_file_name: COL_0950.stl
+x: 300.61 y: 0.0 z: 51.42
+pitch: 0.0 yaw: 90.0 roll: 73.0
+parent_node_name: SSREF
+
+unique_node_name: COL_0951
+geometry_file_name: COL_0951.stl
+x: 319.8 y: 24.57 z: 65.68
+pitch: -30.93 yaw: 0.0 roll: -90.0
+parent_node_name: SSREF
+
+unique_node_name: COL_0952
+geometry_file_name: COL_0952.stl
+x: 315.64 y: 26.17 z: 78.19
+pitch: 0.0 yaw: 0.0 roll: -90.0
+parent_node_name: SSREF
+
+unique_node_name: COL_0953
+geometry_file_name: COL_0953.stl
+x: 319.8 y: -24.57 z: 65.68
+pitch: -30.93 yaw: 0.0 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: COL_0954
+geometry_file_name: COL_0954.stl
+x: 315.64 y: -26.17 z: 78.19
+pitch: 0.0 yaw: 0.0 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: COL_0955
+geometry_file_name: COL_0955.stl
+x: 319.8 y: 24.57 z: -65.68
+pitch: 30.93 yaw: 0.0 roll: -90.0
+parent_node_name: SSREF
+
+unique_node_name: COL_0956
+geometry_file_name: COL_0956.stl
+x: 315.64 y: 26.17 z: -78.19
+pitch: 0.0 yaw: 0.0 roll: -90.0
+parent_node_name: SSREF
+
+unique_node_name: COL_0957
+geometry_file_name: COL_0957.stl
+x: 319.8 y: -24.57 z: -65.68
+pitch: 30.93 yaw: 0.0 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: COL_0958
+geometry_file_name: COL_0958.stl
+x: 315.64 y: -26.17 z: -78.19
+pitch: 0.0 yaw: 0.0 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3001
+geometry_file_name: DC_3001.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3002
+geometry_file_name: DC_3002.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3003
+geometry_file_name: DC_3003.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3004
+geometry_file_name: DC_3004.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3005
+geometry_file_name: DC_3005.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3006
+geometry_file_name: DC_3006.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3007
+geometry_file_name: DC_3007.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3008
+geometry_file_name: DC_3008.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3009
+geometry_file_name: DC_3009.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3010
+geometry_file_name: DC_3010.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3011
+geometry_file_name: DC_3011.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3011_3028_STRAP
+geometry_file_name: DC_3011_3028_STRAP.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3012
+geometry_file_name: DC_3012.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3012_3039_STRAP
+geometry_file_name: DC_3012_3039_STRAP.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3013
+geometry_file_name: DC_3013.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3014
+geometry_file_name: DC_3014.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3014_3031_STRAP
+geometry_file_name: DC_3014_3031_STRAP.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3015
+geometry_file_name: DC_3015.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3016
+geometry_file_name: DC_3016.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3017
+geometry_file_name: DC_3017.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3018
+geometry_file_name: DC_3018.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3019
+geometry_file_name: DC_3019.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3020
+geometry_file_name: DC_3020.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3021
+geometry_file_name: DC_3021.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3022
+geometry_file_name: DC_3022.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3023
+geometry_file_name: DC_3023.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3024
+geometry_file_name: DC_3024.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3025
+geometry_file_name: DC_3025.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3026
+geometry_file_name: DC_3026.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3027
+geometry_file_name: DC_3027.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3028
+geometry_file_name: DC_3028.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3029
+geometry_file_name: DC_3029.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3030
+geometry_file_name: DC_3030.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3031
+geometry_file_name: DC_3031.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3032
+geometry_file_name: DC_3032.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3033
+geometry_file_name: DC_3033.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3034
+geometry_file_name: DC_3034.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3035
+geometry_file_name: DC_3035.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3036
+geometry_file_name: DC_3036.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3037
+geometry_file_name: DC_3037.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3038
+geometry_file_name: DC_3038.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3039
+geometry_file_name: DC_3039.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3040
+geometry_file_name: DC_3040.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3041
+geometry_file_name: DC_3041.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3042
+geometry_file_name: DC_3042.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3043
+geometry_file_name: DC_3043.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3044
+geometry_file_name: DC_3044.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3045
+geometry_file_name: DC_3045.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3046
+geometry_file_name: DC_3046.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3047
+geometry_file_name: DC_3047.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: DC_3048
+geometry_file_name: DC_3048.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ELC1_8501
+geometry_file_name: ELC1_8501.stl
+x: -30.0 y: 81.5 z: 22.5
+pitch: 9.0 yaw: 29.0 roll: -18.3
+parent_node_name: SSREF
+
+unique_node_name: ELC1_8502
+geometry_file_name: ELC1_8502.stl
+x: -128.0 y: 81.5 z: 22.5
+pitch: -9.0 yaw: -29.0 roll: -18.3
+parent_node_name: SSREF
+
+unique_node_name: ELC1_8503
+geometry_file_name: ELC1_8503.stl
+x: -128.0 y: -81.5 z: 22.5
+pitch: -9.0 yaw: 29.0 roll: 18.3
+parent_node_name: SSREF
+
+unique_node_name: ELC1_8504
+geometry_file_name: ELC1_8504.stl
+x: -30.0 y: -81.5 z: 22.5
+pitch: 9.0 yaw: -29.0 roll: 18.3
+parent_node_name: SSREF
+
+unique_node_name: ELC1_8505
+geometry_file_name: ELC1_8505.stl
+x: 1.0 y: -15.0 z: 42.0
+pitch: -48.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ELC1_8506
+geometry_file_name: ELC1_8506.stl
+x: -7.0 y: 15.0 z: 33.0
+pitch: -48.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ELC1_8507
+geometry_file_name: ELC1_8507.stl
+x: -26.3 y: 81.5 z: 5.3
+pitch: 0.0 yaw: 0.0 roll: 196.0
+parent_node_name: SSREF
+
+unique_node_name: ELC1_8508
+geometry_file_name: ELC1_8508.stl
+x: -131.3 y: 81.5 z: 5.3
+pitch: 0.0 yaw: 0.0 roll: 196.0
+parent_node_name: SSREF
+
+unique_node_name: ELC1_8509
+geometry_file_name: ELC1_8509.stl
+x: -131.3 y: -81.5 z: 5.3
+pitch: 0.0 yaw: 0.0 roll: 164.0
+parent_node_name: SSREF
+
+unique_node_name: ELC1_8510
+geometry_file_name: ELC1_8510.stl
+x: -26.3 y: -81.5 z: 5.3
+pitch: 0.0 yaw: 0.0 roll: 164.0
+parent_node_name: SSREF
+
+unique_node_name: ELC2_8601
+geometry_file_name: ELC2_8601.stl
+x: -30.0 y: 81.5 z: 22.5
+pitch: 9.0 yaw: 29.0 roll: -18.3
+parent_node_name: SSREF
+
+unique_node_name: ELC2_8602
+geometry_file_name: ELC2_8602.stl
+x: -128.0 y: 81.5 z: 22.5
+pitch: -9.0 yaw: -29.0 roll: -18.3
+parent_node_name: SSREF
+
+unique_node_name: ELC2_8603
+geometry_file_name: ELC2_8603.stl
+x: -128.0 y: -81.5 z: 22.5
+pitch: -9.0 yaw: 29.0 roll: 18.3
+parent_node_name: SSREF
+
+unique_node_name: ELC2_8604
+geometry_file_name: ELC2_8604.stl
+x: -30.0 y: -81.5 z: 22.5
+pitch: 9.0 yaw: -29.0 roll: 18.3
+parent_node_name: SSREF
+
+unique_node_name: ELC2_8605
+geometry_file_name: ELC2_8605.stl
+x: 1.0 y: -15.0 z: 42.0
+pitch: -48.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ELC2_8606
+geometry_file_name: ELC2_8606.stl
+x: -7.0 y: 15.0 z: 33.0
+pitch: -48.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ELC2_8607
+geometry_file_name: ELC2_8607.stl
+x: -26.3 y: 81.5 z: 5.3
+pitch: 0.0 yaw: 0.0 roll: 196.0
+parent_node_name: SSREF
+
+unique_node_name: ELC2_8608
+geometry_file_name: ELC2_8608.stl
+x: -131.3 y: 81.5 z: 5.3
+pitch: 0.0 yaw: 0.0 roll: 196.0
+parent_node_name: SSREF
+
+unique_node_name: ELC2_8609
+geometry_file_name: ELC2_8609.stl
+x: -131.3 y: -81.5 z: 5.3
+pitch: 0.0 yaw: 0.0 roll: 164.0
+parent_node_name: SSREF
+
+unique_node_name: ELC2_8610
+geometry_file_name: ELC2_8610.stl
+x: -26.3 y: -81.5 z: 5.3
+pitch: 0.0 yaw: 0.0 roll: 164.0
+parent_node_name: SSREF
+
+unique_node_name: ELC3_8701
+geometry_file_name: ELC3_8701.stl
+x: -30.0 y: 81.5 z: 22.5
+pitch: 9.0 yaw: 29.0 roll: -18.3
+parent_node_name: SSREF
+
+unique_node_name: ELC3_8702
+geometry_file_name: ELC3_8702.stl
+x: -128.0 y: 81.5 z: 22.5
+pitch: -9.0 yaw: -29.0 roll: -18.3
+parent_node_name: SSREF
+
+unique_node_name: ELC3_8703
+geometry_file_name: ELC3_8703.stl
+x: -128.0 y: -81.5 z: 22.5
+pitch: -9.0 yaw: 29.0 roll: 18.3
+parent_node_name: SSREF
+
+unique_node_name: ELC3_8704
+geometry_file_name: ELC3_8704.stl
+x: -30.0 y: -81.5 z: 22.5
+pitch: 9.0 yaw: -29.0 roll: 18.3
+parent_node_name: SSREF
+
+unique_node_name: ELC3_8705
+geometry_file_name: ELC3_8705.stl
+x: -7.0 y: -15.0 z: 33.0
+pitch: -48.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ELC3_8706
+geometry_file_name: ELC3_8706.stl
+x: 1.0 y: 15.0 z: 42.0
+pitch: -48.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ELC3_8708
+geometry_file_name: ELC3_8708.stl
+x: -131.3 y: 81.5 z: 5.3
+pitch: 0.0 yaw: 0.0 roll: 196.0
+parent_node_name: SSREF
+
+unique_node_name: ELC3_8709
+geometry_file_name: ELC3_8709.stl
+x: -131.3 y: -81.5 z: 5.3
+pitch: 0.0 yaw: 0.0 roll: 164.0
+parent_node_name: SSREF
+
+unique_node_name: ELC3_8710
+geometry_file_name: ELC3_8710.stl
+x: -26.3 y: -81.5 z: 5.3
+pitch: 0.0 yaw: 0.0 roll: 164.0
+parent_node_name: SSREF
+
+unique_node_name: ELC4_8801
+geometry_file_name: ELC4_8801.stl
+x: -30.0 y: 81.5 z: 22.5
+pitch: 9.0 yaw: 29.0 roll: -18.3
+parent_node_name: SSREF
+
+unique_node_name: ELC4_8802
+geometry_file_name: ELC4_8802.stl
+x: -128.0 y: 81.5 z: 22.5
+pitch: -9.0 yaw: -29.0 roll: -18.3
+parent_node_name: SSREF
+
+unique_node_name: ELC4_8803
+geometry_file_name: ELC4_8803.stl
+x: -128.0 y: -81.5 z: 22.5
+pitch: -9.0 yaw: 29.0 roll: 18.3
+parent_node_name: SSREF
+
+unique_node_name: ELC4_8804
+geometry_file_name: ELC4_8804.stl
+x: -30.0 y: -81.5 z: 22.5
+pitch: 9.0 yaw: -29.0 roll: 18.3
+parent_node_name: SSREF
+
+unique_node_name: ELC4_8805
+geometry_file_name: ELC4_8805.stl
+x: 1.0 y: -15.0 z: 42.0
+pitch: -48.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ELC4_8806
+geometry_file_name: ELC4_8806.stl
+x: -7.0 y: 15.0 z: 33.0
+pitch: -48.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ELC4_8807
+geometry_file_name: ELC4_8807.stl
+x: -26.3 y: 81.5 z: 5.3
+pitch: 0.0 yaw: 0.0 roll: 196.0
+parent_node_name: SSREF
+
+unique_node_name: ELC4_8808
+geometry_file_name: ELC4_8808.stl
+x: -131.3 y: 81.5 z: 5.3
+pitch: 0.0 yaw: 0.0 roll: 196.0
+parent_node_name: SSREF
+
+unique_node_name: ELC4_8809
+geometry_file_name: ELC4_8809.stl
+x: -131.3 y: -81.5 z: 5.3
+pitch: 0.0 yaw: 0.0 roll: 164.0
+parent_node_name: SSREF
+
+unique_node_name: ELC4_8810
+geometry_file_name: ELC4_8810.stl
+x: -26.3 y: -81.5 z: 5.3
+pitch: 0.0 yaw: 0.0 roll: 164.0
+parent_node_name: SSREF
+
+unique_node_name: ELC4_8811
+geometry_file_name: ELC4_8811.stl
+x: -71.3 y: 67.5 z: 24.0
+pitch: 0.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ELC4_8812
+geometry_file_name: ELC4_8812.stl
+x: -116.3 y: 67.5 z: 24.0
+pitch: 0.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ELC4_8813
+geometry_file_name: ELC4_8813.stl
+x: -140.0 y: -75.0 z: 24.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ELC4_8814
+geometry_file_name: ELC4_8814.stl
+x: -94.0 y: -75.0 z: 24.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ELC4_8815
+geometry_file_name: ELC4_8815.stl
+x: -11.3 y: -67.5 z: 24.0
+pitch: 0.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8000
+geometry_file_name: ESP2_8000.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8001
+geometry_file_name: ESP2_8001.stl
+x: 4.4 y: -19.5 z: 17.3
+pitch: 90.0 yaw: 0.0 roll: -90.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8002
+geometry_file_name: ESP2_8002.stl
+x: 2.5 y: 0.0 z: 14.0
+pitch: 90.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8003
+geometry_file_name: ESP2_8003.stl
+x: 2.5 y: 30.1 z: 14.0
+pitch: 90.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8004
+geometry_file_name: ESP2_8004.stl
+x: 2.5 y: 60.2 z: 14.0
+pitch: 90.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8005
+geometry_file_name: ESP2_8005.stl
+x: -9.7 y: 82.3 z: 22.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8006
+geometry_file_name: ESP2_8006.stl
+x: -9.6 y: 82.2 z: 6.0
+pitch: 180.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8007
+geometry_file_name: ESP2_8007.stl
+x: -32.2 y: 81.2 z: 6.0
+pitch: 180.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8008
+geometry_file_name: ESP2_8008.stl
+x: -55.2 y: 79.8 z: 6.0
+pitch: 180.0 yaw: 21.3 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8009
+geometry_file_name: ESP2_8009.stl
+x: -85.0 y: 82.2 z: 6.0
+pitch: 180.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8010
+geometry_file_name: ESP2_8010.stl
+x: -97.1 y: 60.2 z: 14.0
+pitch: -90.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8011
+geometry_file_name: ESP2_8011.stl
+x: -97.1 y: 30.1 z: 14.0
+pitch: -90.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8012
+geometry_file_name: ESP2_8012.stl
+x: -97.1 y: -30.1 z: 14.0
+pitch: -90.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8013
+geometry_file_name: ESP2_8013.stl
+x: -97.1 y: -60.2 z: 14.0
+pitch: -90.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8014
+geometry_file_name: ESP2_8014.stl
+x: -9.6 y: -82.5 z: 6.0
+pitch: 180.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8015
+geometry_file_name: ESP2_8015.stl
+x: -9.7 y: -82.3 z: 22.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8016
+geometry_file_name: ESP2_8016.stl
+x: -24.3 y: 15.0 z: 6.0
+pitch: 180.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8017
+geometry_file_name: ESP2_8017.stl
+x: -32.0 y: -75.0 z: 22.0
+pitch: 0.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8018
+geometry_file_name: ESP2_8018.stl
+x: -32.0 y: -30.0 z: 22.0
+pitch: 0.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8019
+geometry_file_name: ESP2_8019.stl
+x: -23.5 y: 7.5 z: 22.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8020
+geometry_file_name: ESP2_8020.stl
+x: -47.2 y: 45.0 z: 6.0
+pitch: 180.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8021
+geometry_file_name: ESP2_8021.stl
+x: -47.2 y: -45.0 z: 6.0
+pitch: 180.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8022
+geometry_file_name: ESP2_8022.stl
+x: -39.6 y: -75.0 z: 6.0
+pitch: 180.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8023
+geometry_file_name: ESP2_8023.stl
+x: -19.7 y: -22.3 z: 22.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8024
+geometry_file_name: ESP2_8024.stl
+x: 4.4 y: -31.2 z: -7.1
+pitch: -90.0 yaw: 58.0 roll: -90.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8025
+geometry_file_name: ESP2_8025.stl
+x: 4.4 y: -58.8 z: -7.2
+pitch: -90.0 yaw: 122.2 roll: -90.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8026
+geometry_file_name: ESP2_8026.stl
+x: -9.0 y: -66.6 z: 27.0
+pitch: -27.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8027
+geometry_file_name: ESP2_8027.stl
+x: 4.4 y: -57.1 z: 39.5
+pitch: 90.0 yaw: -68.0 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8028
+geometry_file_name: ESP2_8028.stl
+x: 4.4 y: -33.2 z: 39.5
+pitch: 90.0 yaw: -112.0 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8029
+geometry_file_name: ESP2_8029.stl
+x: 14.2 y: -51.5 z: 40.0
+pitch: 90.0 yaw: 0.0 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8030
+geometry_file_name: ESP2_8030.stl
+x: 14.2 y: -38.0 z: 40.0
+pitch: 90.0 yaw: 0.0 roll: -90.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8031
+geometry_file_name: ESP2_8031.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8032
+geometry_file_name: ESP2_8032.stl
+x: 14.2 y: -20.5 z: -5.5
+pitch: 180.0 yaw: -89.95 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8033
+geometry_file_name: ESP2_8033.stl
+x: 14.2 y: -61.5 z: -4.5
+pitch: 180.0 yaw: -89.95 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8034
+geometry_file_name: ESP2_8034.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8035
+geometry_file_name: ESP2_8035.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP2_8036
+geometry_file_name: ESP2_8036.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP3_8301
+geometry_file_name: ESP3_8301.stl
+x: -8.5 y: 3.0 z: 19.5
+pitch: -45.0 yaw: -14.5 roll: 10.0
+parent_node_name: SSREF
+
+unique_node_name: ESP3_8302
+geometry_file_name: ESP3_8302.stl
+x: -8.5 y: -3.0 z: 19.5
+pitch: -45.0 yaw: 14.5 roll: -10.0
+parent_node_name: SSREF
+
+unique_node_name: ESP3_8303
+geometry_file_name: ESP3_8303.stl
+x: -8.5 y: -15.0 z: 7.5
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP3_8304
+geometry_file_name: ESP3_8304.stl
+x: 2.5 y: -31.0 z: 0.0
+pitch: 90.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP3_8305
+geometry_file_name: ESP3_8305.stl
+x: -2.0 y: -46.0 z: -7.5
+pitch: 180.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP3_8306
+geometry_file_name: ESP3_8306.stl
+x: 2.5 y: -61.0 z: 0.0
+pitch: 90.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP3_8307
+geometry_file_name: ESP3_8307.stl
+x: -8.5 y: -82.5 z: 7.5
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP3_8308
+geometry_file_name: ESP3_8308.stl
+x: -2.0 y: -76.0 z: -7.5
+pitch: 180.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP3_8309
+geometry_file_name: ESP3_8309.stl
+x: -55.0 y: -82.5 z: 7.5
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP3_8310
+geometry_file_name: ESP3_8310.stl
+x: -55.0 y: -82.5 z: -7.5
+pitch: 180.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP3_8311
+geometry_file_name: ESP3_8311.stl
+x: -85.0 y: -82.5 z: -7.5
+pitch: 180.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP3_8312
+geometry_file_name: ESP3_8312.stl
+x: -85.5 y: -68.5 z: 7.5
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP3_8313
+geometry_file_name: ESP3_8313.stl
+x: -78.5 y: -46.0 z: 7.5
+pitch: 0.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP3_8314
+geometry_file_name: ESP3_8314.stl
+x: -97.0 y: -30.0 z: 0.0
+pitch: -90.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP3_8315
+geometry_file_name: ESP3_8315.stl
+x: -92.3 y: -30.0 z: -7.5
+pitch: 180.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP3_8316
+geometry_file_name: ESP3_8316.stl
+x: -97.0 y: 0.0 z: 0.0
+pitch: -90.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP3_8317
+geometry_file_name: ESP3_8317.stl
+x: -97.0 y: 30.0 z: 0.0
+pitch: -90.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP3_8318
+geometry_file_name: ESP3_8318.stl
+x: -70.5 y: 82.5 z: -7.5
+pitch: 180.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP3_8319
+geometry_file_name: ESP3_8319.stl
+x: -8.5 y: 82.5 z: 7.5
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP3_8320
+geometry_file_name: ESP3_8320.stl
+x: 2.5 y: 30.0 z: 0.0
+pitch: 90.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP3_8321
+geometry_file_name: ESP3_8321.stl
+x: -31.5 y: 15.0 z: 7.5
+pitch: 0.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP3_8322
+geometry_file_name: ESP3_8322.stl
+x: -63.0 y: -61.0 z: 7.5
+pitch: 0.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP3_8323
+geometry_file_name: ESP3_8323.stl
+x: -10.5 y: 21.0 z: -13.0
+pitch: 207.0 yaw: 7.5 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP3_8324
+geometry_file_name: ESP3_8324.stl
+x: -10.5 y: -21.0 z: -13.0
+pitch: -153.0 yaw: -7.5 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ESP3_8325
+geometry_file_name: ESP3_8325.stl
+x: -31.5 y: -30.5 z: -7.5
+pitch: 180.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1010
+geometry_file_name: FGB_1010.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1011
+geometry_file_name: FGB_1011.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1012
+geometry_file_name: FGB_1012.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1013
+geometry_file_name: FGB_1013.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1020
+geometry_file_name: FGB_1020.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1030
+geometry_file_name: FGB_1030.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1031
+geometry_file_name: FGB_1031.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1032
+geometry_file_name: FGB_1032.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1033
+geometry_file_name: FGB_1033.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1035
+geometry_file_name: FGB_1035.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1036
+geometry_file_name: FGB_1036.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1037
+geometry_file_name: FGB_1037.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1038
+geometry_file_name: FGB_1038.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1050
+geometry_file_name: FGB_1050.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1060
+geometry_file_name: FGB_1060.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1061
+geometry_file_name: FGB_1061.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1062
+geometry_file_name: FGB_1062.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1063
+geometry_file_name: FGB_1063.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1064
+geometry_file_name: FGB_1064.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1065
+geometry_file_name: FGB_1065.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1070
+geometry_file_name: FGB_1070.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1071
+geometry_file_name: FGB_1071.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1072
+geometry_file_name: FGB_1072.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1073
+geometry_file_name: FGB_1073.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1074
+geometry_file_name: FGB_1074.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1075
+geometry_file_name: FGB_1075.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1076
+geometry_file_name: FGB_1076.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1077
+geometry_file_name: FGB_1077.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1078
+geometry_file_name: FGB_1078.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1079
+geometry_file_name: FGB_1079.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1200
+geometry_file_name: FGB_1200.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1201
+geometry_file_name: FGB_1201.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1202
+geometry_file_name: FGB_1202.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1203
+geometry_file_name: FGB_1203.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1204
+geometry_file_name: FGB_1204.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1300
+geometry_file_name: FGB_1300.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1301
+geometry_file_name: FGB_1301.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1302
+geometry_file_name: FGB_1302.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1303
+geometry_file_name: FGB_1303.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1304
+geometry_file_name: FGB_1304.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1305
+geometry_file_name: FGB_1305.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1306
+geometry_file_name: FGB_1306.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1307
+geometry_file_name: FGB_1307.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1308
+geometry_file_name: FGB_1308.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1309
+geometry_file_name: FGB_1309.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1310
+geometry_file_name: FGB_1310.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1311
+geometry_file_name: FGB_1311.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1312
+geometry_file_name: FGB_1312.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1313
+geometry_file_name: FGB_1313.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1314
+geometry_file_name: FGB_1314.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1315
+geometry_file_name: FGB_1315.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1316
+geometry_file_name: FGB_1316.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1320
+geometry_file_name: FGB_1320.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1321
+geometry_file_name: FGB_1321.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1322
+geometry_file_name: FGB_1322.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1323
+geometry_file_name: FGB_1323.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1324
+geometry_file_name: FGB_1324.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1325
+geometry_file_name: FGB_1325.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1326
+geometry_file_name: FGB_1326.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1327
+geometry_file_name: FGB_1327.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1328
+geometry_file_name: FGB_1328.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1329
+geometry_file_name: FGB_1329.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1330
+geometry_file_name: FGB_1330.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1331
+geometry_file_name: FGB_1331.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1332
+geometry_file_name: FGB_1332.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1333
+geometry_file_name: FGB_1333.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1334
+geometry_file_name: FGB_1334.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1335
+geometry_file_name: FGB_1335.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1350
+geometry_file_name: FGB_1350.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1360
+geometry_file_name: FGB_1360.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1400
+geometry_file_name: FGB_1400.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1401
+geometry_file_name: FGB_1401.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1402
+geometry_file_name: FGB_1402.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1403
+geometry_file_name: FGB_1403.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1404
+geometry_file_name: FGB_1404.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1500
+geometry_file_name: FGB_1500.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1501
+geometry_file_name: FGB_1501.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1502
+geometry_file_name: FGB_1502.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1503
+geometry_file_name: FGB_1503.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1504
+geometry_file_name: FGB_1504.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1505
+geometry_file_name: FGB_1505.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1506
+geometry_file_name: FGB_1506.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1507
+geometry_file_name: FGB_1507.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_1508
+geometry_file_name: FGB_1508.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_FL_1036
+geometry_file_name: FGB_FL_1036.stl
+x: -16.0 y: 43.75 z: -25.0
+pitch: 0.0 yaw: 0.0 roll: -90.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_FL_1079
+geometry_file_name: FGB_FL_1079.stl
+x: 63.0 y: 64.0 z: -5.0
+pitch: 0.0 yaw: 0.0 roll: -95.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_FL_1310
+geometry_file_name: FGB_FL_1310.stl
+x: 269.0 y: 77.1 z: 25.8
+pitch: 0.0 yaw: 0.0 roll: 188.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_FL_1316
+geometry_file_name: FGB_FL_1316.stl
+x: 379.0 y: 84.0 z: 27.0
+pitch: 0.0 yaw: 0.0 roll: -67.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_FL_1330
+geometry_file_name: FGB_FL_1330.stl
+x: 269.0 y: 77.1 z: -25.8
+pitch: 0.0 yaw: 0.0 roll: -8.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_FL_1350
+geometry_file_name: FGB_FL_1350.stl
+x: 147.1 y: 82.5 z: -5.0
+pitch: 0.0 yaw: 0.0 roll: -95.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_FL_1500
+geometry_file_name: FGB_FL_1500.stl
+x: 444.5 y: 0.0 z: 39.5
+pitch: 0.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_FL_1502
+geometry_file_name: FGB_FL_1502.stl
+x: 419.5 y: 36.5 z: 41.0
+pitch: 47.0 yaw: -25.0 roll: -22.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_HANDLES
+geometry_file_name: FGB_HANDLES.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_HR1
+geometry_file_name: FGB_HR1.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_HR2
+geometry_file_name: FGB_HR2.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_HR3
+geometry_file_name: FGB_HR3.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: FGB_HR4
+geometry_file_name: FGB_HR4.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: GAP_SPANNER_2243_ANT
+geometry_file_name: GAP_SPANNER_2243_ANT.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: GAP_SPANNER_2443_2511
+geometry_file_name: GAP_SPANNER_2443_2511.stl
+x: 15.61 y: -122.18 z: -208.87
+pitch: -43.72 yaw: 16.07 roll: 7.55
+parent_node_name: SSREF
+
+unique_node_name: GAP_SPAN_0201_0239
+geometry_file_name: GAP_SPAN_0201_0239.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: GAP_SPAN_0219_0232
+geometry_file_name: GAP_SPAN_0219_0232.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: GAP_SPAN_0231_0232
+geometry_file_name: GAP_SPAN_0231_0232.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: GAP_SPAN_0251_0286
+geometry_file_name: GAP_SPAN_0251_0286.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: GAP_SPAN_0288_0259
+geometry_file_name: GAP_SPAN_0288_0259.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: GAP_SPAN_0296_0260
+geometry_file_name: GAP_SPAN_0296_0260.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: GAP_SPAN_ESP2_8013_L0293
+geometry_file_name: GAP_SPAN_ESP2_8013_L0293.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: GAP_SPAN_LAB_NODE2
+geometry_file_name: GAP_SPAN_LAB_NODE2.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: GAP_SPAN_L_N1
+geometry_file_name: GAP_SPAN_L_N1.stl
+x: 296.72 y: 67.48 z: 50.86
+pitch: -90.0 yaw: -37.0 roll: -180.0
+parent_node_name: SSREF
+
+unique_node_name: GAP_SPAN_N1_121122
+geometry_file_name: GAP_SPAN_N1_121122.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: GAP_SPAN_N2_331_344
+geometry_file_name: GAP_SPAN_N2_331_344.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: GAP_SPAN_N2_332_345
+geometry_file_name: GAP_SPAN_N2_332_345.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: GAP_SPAN_N2_342_347
+geometry_file_name: GAP_SPAN_N2_342_347.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: GAP_SPAN_N2_370_372
+geometry_file_name: GAP_SPAN_N2_370_372.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: GAP_SPAN_N3_617_618
+geometry_file_name: GAP_SPAN_N3_617_618.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: GAP_SPAN_N3_618_619
+geometry_file_name: GAP_SPAN_N3_618_619.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: GAP_SPAN_N3_628_618
+geometry_file_name: GAP_SPAN_N3_628_618.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: GAP_SPAN_N3_667_to_L_208
+geometry_file_name: GAP_SPAN_N3_667_to_L_208.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: GAP_SPAN_N3_668_615
+geometry_file_name: GAP_SPAN_N3_668_615.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: GAP_SPAN_N3_668_to_N1_112
+geometry_file_name: GAP_SPAN_N3_668_to_N1_112.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: GAP_SPAN_N3_671_to_N1_108
+geometry_file_name: GAP_SPAN_N3_671_to_N1_108.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: GAP_SPAN_N3_673_619
+geometry_file_name: GAP_SPAN_N3_673_619.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: GAP_SPAN_N3_673_to_N1_106
+geometry_file_name: GAP_SPAN_N3_673_to_N1_106.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: GAP_SPAN_P1_N1
+geometry_file_name: GAP_SPAN_P1_N1.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: HWY_110
+geometry_file_name: HWY_110.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: HWY_XXX
+geometry_file_name: HWY_XXX.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: ISS_BSS_0001
+geometry_file_name: ISS_BSS_0001.stl
+x: -21.3 y: 7.01 z: 5.88
+pitch: 0.0 yaw: 0.0 roll: -50.0
+parent_node_name: SSREF
+
+unique_node_name: ISS_BSS_0002
+geometry_file_name: ISS_BSS_0002.stl
+x: -21.3 y: -3.13 z: 8.6
+pitch: 0.0 yaw: 0.0 roll: 19.98
+parent_node_name: SSREF
+
+unique_node_name: ISS_BSS_0003
+geometry_file_name: ISS_BSS_0003.stl
+x: -18.23 y: -4.58 z: -7.93
+pitch: 0.0 yaw: 0.0 roll: 150.0
+parent_node_name: SSREF
+
+unique_node_name: ISS_BSS_0004
+geometry_file_name: ISS_BSS_0004.stl
+x: -257.35 y: 7.01 z: 5.8
+pitch: 0.0 yaw: 0.0 roll: -50.0
+parent_node_name: SSREF
+
+unique_node_name: ISS_BSS_0005
+geometry_file_name: ISS_BSS_0005.stl
+x: -257.35 y: -3.13 z: 8.6
+pitch: 0.0 yaw: 0.0 roll: 19.98
+parent_node_name: SSREF
+
+unique_node_name: ISS_BSS_0006
+geometry_file_name: ISS_BSS_0006.stl
+x: -249.0 y: -4.58 z: -7.93
+pitch: 0.0 yaw: 0.0 roll: 149.98
+parent_node_name: SSREF
+
+unique_node_name: ISS_BSS_0007
+geometry_file_name: ISS_BSS_0007.stl
+x: -536.3 y: -4.58 z: -7.93
+pitch: 0.0 yaw: 0.0 roll: 149.98
+parent_node_name: SSREF
+
+unique_node_name: ISS_BSS_0008
+geometry_file_name: ISS_BSS_0008.stl
+x: -508.51 y: -4.58 z: -7.93
+pitch: 0.0 yaw: 0.0 roll: 149.98
+parent_node_name: SSREF
+
+unique_node_name: ISS_BSS_0009
+geometry_file_name: ISS_BSS_0009.stl
+x: -558.3 y: -4.58 z: -7.93
+pitch: 0.0 yaw: 0.0 roll: 150.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_1219
+geometry_file_name: JEF_1219.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_1220
+geometry_file_name: JEF_1220.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_1221
+geometry_file_name: JEF_1221.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_1222
+geometry_file_name: JEF_1222.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7000
+geometry_file_name: JEF_7000.stl
+x: 2.85 y: 37.5 z: -49.54
+pitch: 180.0 yaw: -90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7001
+geometry_file_name: JEF_7001.stl
+x: 26.18 y: 58.5 z: -49.34
+pitch: 0.0 yaw: 0.0 roll: -180.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7002
+geometry_file_name: JEF_7002.stl
+x: 52.77 y: 62.88 z: -45.25
+pitch: 0.0 yaw: 0.0 roll: -90.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7003
+geometry_file_name: JEF_7003.stl
+x: 74.66 y: 58.46 z: -49.54
+pitch: 0.0 yaw: 0.0 roll: -180.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7004
+geometry_file_name: JEF_7004.stl
+x: 96.22 y: 62.88 z: -45.25
+pitch: 0.0 yaw: 0.0 roll: -90.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7005
+geometry_file_name: JEF_7005.stl
+x: 117.94 y: 58.41 z: -49.54
+pitch: 0.0 yaw: 0.0 roll: -180.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7006
+geometry_file_name: JEF_7006.stl
+x: 139.27 y: 62.88 z: -45.25
+pitch: 0.0 yaw: 0.0 roll: -90.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7007
+geometry_file_name: JEF_7007.stl
+x: 166.39 y: 58.37 z: -49.54
+pitch: 0.0 yaw: 0.0 roll: -180.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7008
+geometry_file_name: JEF_7008.stl
+x: 185.36 y: 40.55 z: -72.52
+pitch: 90.0 yaw: -43.5 roll: -90.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7009
+geometry_file_name: JEF_7009.stl
+x: -2.52 y: 3.83 z: -15.68
+pitch: -90.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7010
+geometry_file_name: JEF_7010.stl
+x: -2.52 y: 3.83 z: -39.59
+pitch: -90.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7011
+geometry_file_name: JEF_7011.stl
+x: 1.37 y: 36.49 z: 3.0
+pitch: 0.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7012
+geometry_file_name: JEF_7012.stl
+x: 1.37 y: -3.96 z: 3.0
+pitch: 0.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7013
+geometry_file_name: JEF_7013.stl
+x: 2.67 y: -37.63 z: -49.54
+pitch: 180.0 yaw: -90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7014
+geometry_file_name: JEF_7014.stl
+x: 2.68 y: 0.0 z: -49.34
+pitch: 180.0 yaw: -90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7015
+geometry_file_name: JEF_7015.stl
+x: 26.49 y: 62.68 z: -0.79
+pitch: 0.0 yaw: 0.0 roll: -90.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7016
+geometry_file_name: JEF_7016.stl
+x: 29.91 y: 20.7 z: 3.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7017
+geometry_file_name: JEF_7017.stl
+x: 0.0 y: 0.0 z: 21.0
+pitch: 0.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7018
+geometry_file_name: JEF_7018.stl
+x: 0.0 y: 0.0 z: 21.0
+pitch: 0.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7019
+geometry_file_name: JEF_7019.stl
+x: 28.08 y: -62.71 z: -0.95
+pitch: 0.0 yaw: 0.0 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7020
+geometry_file_name: JEF_7020.stl
+x: 26.18 y: -58.53 z: -49.34
+pitch: 0.0 yaw: 0.0 roll: -180.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7021
+geometry_file_name: JEF_7021.stl
+x: 52.71 y: -37.29 z: 3.0
+pitch: 0.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7022
+geometry_file_name: JEF_7022.stl
+x: 52.84 y: -62.88 z: -45.13
+pitch: 0.0 yaw: 0.0 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7023
+geometry_file_name: JEF_7023.stl
+x: 1.5 y: -6.5 z: -14.0
+pitch: 0.0 yaw: 0.0 roll: 180.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7024
+geometry_file_name: JEF_7024.stl
+x: 1.5 y: 6.5 z: -14.0
+pitch: 0.0 yaw: 0.0 roll: 180.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7025
+geometry_file_name: JEF_7025.stl
+x: 1.2 y: -7.5 z: -16.5
+pitch: 0.0 yaw: 0.0 roll: 180.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7026
+geometry_file_name: JEF_7026.stl
+x: 1.2 y: 7.5 z: -16.5
+pitch: 0.0 yaw: 0.0 roll: 180.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7027
+geometry_file_name: JEF_7027.stl
+x: 52.91 y: 40.23 z: -49.54
+pitch: 180.0 yaw: -90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7028
+geometry_file_name: JEF_7028.stl
+x: 71.85 y: 62.68 z: -0.79
+pitch: 0.0 yaw: 0.0 roll: -90.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7029
+geometry_file_name: JEF_7029.stl
+x: 62.96 y: 20.77 z: 3.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7030
+geometry_file_name: JEF_7030.stl
+x: 0.0 y: 0.0 z: 21.0
+pitch: 0.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7031
+geometry_file_name: JEF_7031.stl
+x: 0.0 y: 0.0 z: 21.0
+pitch: 0.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7032
+geometry_file_name: JEF_7032.stl
+x: 76.25 y: -20.45 z: 3.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7033
+geometry_file_name: JEF_7033.stl
+x: 71.77 y: -32.71 z: -0.95
+pitch: 0.0 yaw: 0.0 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7034
+geometry_file_name: JEF_7034.stl
+x: 74.38 y: -58.6 z: -49.54
+pitch: 0.0 yaw: 0.0 roll: -180.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7035
+geometry_file_name: JEF_7035.stl
+x: 83.32 y: 20.64 z: -49.54
+pitch: 0.0 yaw: 0.0 roll: -180.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7036
+geometry_file_name: JEF_7036.stl
+x: 96.15 y: 37.2 z: 3.0
+pitch: 0.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7037
+geometry_file_name: JEF_7037.stl
+x: 96.31 y: 0.0 z: 3.0
+pitch: 0.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7038
+geometry_file_name: JEF_7038.stl
+x: 96.41 y: -62.88 z: -45.13
+pitch: 0.0 yaw: 0.0 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7039
+geometry_file_name: JEF_7039.stl
+x: 1.5 y: -6.5 z: -14.0
+pitch: 0.0 yaw: 0.0 roll: 180.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7040
+geometry_file_name: JEF_7040.stl
+x: 1.5 y: 6.5 z: -14.0
+pitch: 0.0 yaw: 0.0 roll: 180.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7041
+geometry_file_name: JEF_7041.stl
+x: 96.16 y: 42.74 z: -49.54
+pitch: 180.0 yaw: -90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7042
+geometry_file_name: JEF_7042.stl
+x: 118.13 y: 62.68 z: -0.79
+pitch: 0.0 yaw: 0.0 roll: -90.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7043
+geometry_file_name: JEF_7043.stl
+x: 0.0 y: 0.0 z: 21.0
+pitch: 0.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7044
+geometry_file_name: JEF_7044.stl
+x: 120.35 y: 20.59 z: 3.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7045
+geometry_file_name: JEF_7045.stl
+x: 113.24 y: -20.65 z: 3.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7046
+geometry_file_name: JEF_7046.stl
+x: 118.03 y: -62.71 z: -0.95
+pitch: 0.0 yaw: 0.0 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7047
+geometry_file_name: JEF_7047.stl
+x: 117.86 y: -58.69 z: -49.54
+pitch: 0.0 yaw: 0.0 roll: -180.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7048
+geometry_file_name: JEF_7048.stl
+x: 122.56 y: -20.64 z: -49.54
+pitch: 0.0 yaw: 0.0 roll: -180.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7049
+geometry_file_name: JEF_7049.stl
+x: 113.19 y: 20.45 z: -49.54
+pitch: 0.0 yaw: 0.0 roll: -180.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7050
+geometry_file_name: JEF_7050.stl
+x: 139.65 y: -62.88 z: -45.13
+pitch: 0.0 yaw: 0.0 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7051
+geometry_file_name: JEF_7051.stl
+x: 139.59 y: -39.87 z: -49.57
+pitch: 180.0 yaw: -90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7052
+geometry_file_name: JEF_7052.stl
+x: 1.5 y: 6.5 z: -14.0
+pitch: 0.0 yaw: 0.0 roll: 180.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7053
+geometry_file_name: JEF_7053.stl
+x: 1.5 y: -6.5 z: -14.0
+pitch: 0.0 yaw: 0.0 roll: 180.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7054
+geometry_file_name: JEF_7054.stl
+x: 164.01 y: 62.68 z: -0.79
+pitch: 0.0 yaw: 0.0 roll: -90.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7055
+geometry_file_name: JEF_7055.stl
+x: 0.0 y: 0.0 z: 21.0
+pitch: 0.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7056
+geometry_file_name: JEF_7056.stl
+x: 150.83 y: 20.59 z: 3.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7057
+geometry_file_name: JEF_7057.stl
+x: 161.74 y: -20.61 z: 3.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7058
+geometry_file_name: JEF_7058.stl
+x: 0.0 y: 0.0 z: 21.0
+pitch: 0.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7059
+geometry_file_name: JEF_7059.stl
+x: 0.0 y: 0.0 z: 21.0
+pitch: 0.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7060
+geometry_file_name: JEF_7060.stl
+x: 164.09 y: -62.71 z: -0.95
+pitch: 0.0 yaw: 0.0 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7061
+geometry_file_name: JEF_7061.stl
+x: 166.46 y: -58.65 z: -49.54
+pitch: 0.0 yaw: 0.0 roll: -180.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7062
+geometry_file_name: JEF_7062.stl
+x: 159.86 y: -20.81 z: -49.34
+pitch: 0.0 yaw: 0.0 roll: -180.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7063
+geometry_file_name: JEF_7063.stl
+x: 167.9 y: 20.48 z: -49.54
+pitch: 0.0 yaw: 0.0 roll: -180.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7064
+geometry_file_name: JEF_7064.stl
+x: 184.48 y: 36.44 z: 3.0
+pitch: 0.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7065
+geometry_file_name: JEF_7065.stl
+x: 184.56 y: -36.36 z: 3.0
+pitch: 0.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7066
+geometry_file_name: JEF_7066.stl
+x: 184.53 y: -37.69 z: -49.34
+pitch: 180.0 yaw: -90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7067
+geometry_file_name: JEF_7067.stl
+x: 184.53 y: 0.0 z: -49.34
+pitch: 180.0 yaw: -90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7068
+geometry_file_name: JEF_7068.stl
+x: 184.53 y: 37.54 z: -49.34
+pitch: 180.0 yaw: -90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7069
+geometry_file_name: JEF_7069.stl
+x: 185.36 y: -40.36 z: -72.47
+pitch: -90.0 yaw: -43.44 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7070
+geometry_file_name: JEF_7070.stl
+x: 188.47 y: 56.61 z: -22.22
+pitch: 90.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7071
+geometry_file_name: JEF_7071.stl
+x: 188.47 y: 0.0 z: -0.91
+pitch: 90.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JEF_7072
+geometry_file_name: JEF_7072.stl
+x: 188.47 y: -58.34 z: -30.71
+pitch: 90.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: JELM_1225
+geometry_file_name: JELM_1225.stl
+x: 4.84 y: 86.25 z: 7.55
+pitch: -90.0 yaw: -5.0 roll: -22.0
+parent_node_name: SSREF
+
+unique_node_name: JELM_1226
+geometry_file_name: JELM_1226.stl
+x: 4.84 y: 74.98 z: -43.29
+pitch: -90.0 yaw: 30.0 roll: -22.0
+parent_node_name: SSREF
+
+unique_node_name: JELM_1227
+geometry_file_name: JELM_1227.stl
+x: 4.84 y: 43.29 z: -74.98
+pitch: -90.0 yaw: 60.0 roll: -22.0
+parent_node_name: SSREF
+
+unique_node_name: JELM_1228
+geometry_file_name: JELM_1228.stl
+x: 40.09 y: 23.42 z: -87.42
+pitch: 0.0 yaw: 0.0 roll: -165.0
+parent_node_name: SSREF
+
+unique_node_name: JELM_1229
+geometry_file_name: JELM_1229.stl
+x: 78.62 y: 23.42 z: -87.42
+pitch: 0.0 yaw: 0.0 roll: -165.0
+parent_node_name: SSREF
+
+unique_node_name: JELM_1230
+geometry_file_name: JELM_1230.stl
+x: 99.68 y: 23.42 z: -87.42
+pitch: 0.0 yaw: 0.0 roll: -165.0
+parent_node_name: SSREF
+
+unique_node_name: JELM_1231
+geometry_file_name: JELM_1231.stl
+x: 127.16 y: 23.42 z: -87.42
+pitch: 0.0 yaw: 0.0 roll: -165.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6000(pool_handle)
+geometry_file_name: Z1_6000(pool_handle).stl
+x: -73.44 y: 53.59 z: 69.01
+pitch: -38.7 yaw: -41.31 roll: -93.95
+parent_node_name: SSREF
+
+unique_node_name: Z1_6001
+geometry_file_name: Z1_6001.stl
+x: -23.48 y: 28.66 z: 87.82
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6002
+geometry_file_name: Z1_6002.stl
+x: 2.24 y: 25.78 z: 87.82
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6003
+geometry_file_name: Z1_6003.stl
+x: 25.52 y: 25.78 z: 87.82
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6004
+geometry_file_name: Z1_6004.stl
+x: -56.13 y: -7.22 z: 77.22
+pitch: -90.0 yaw: 62.85 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6005
+geometry_file_name: Z1_6005.stl
+x: -56.13 y: -33.42 z: 63.79
+pitch: -90.0 yaw: 62.86 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6006
+geometry_file_name: Z1_6006.stl
+x: -30.25 y: -12.75 z: 7.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6007
+geometry_file_name: Z1_6007.stl
+x: -22.4 y: -30.75 z: 8.75
+pitch: 90.0 yaw: 90.0 roll: -90.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6008
+geometry_file_name: Z1_6008.stl
+x: 18.6 y: -30.75 z: 8.75
+pitch: 90.0 yaw: 90.0 roll: -90.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6009
+geometry_file_name: Z1_6009.stl
+x: -2.25 y: -13.32 z: 3.87
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6010
+geometry_file_name: Z1_6010.stl
+x: 27.5 y: -10.75 z: 7.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6011
+geometry_file_name: Z1_6011.stl
+x: -56.13 y: -33.42 z: -63.79
+pitch: 90.0 yaw: 62.86 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6012
+geometry_file_name: Z1_6012.stl
+x: -56.13 y: -7.22 z: -77.22
+pitch: 90.0 yaw: 62.86 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6013
+geometry_file_name: Z1_6013.stl
+x: -56.14 y: 41.1 z: -73.38
+pitch: 90.0 yaw: -17.7 roll: -90.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6014
+geometry_file_name: Z1_6014.stl
+x: -60.0 y: 46.0 z: 0.0
+pitch: -90.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6015
+geometry_file_name: Z1_6015.stl
+x: -56.14 y: 41.14 z: 73.36
+pitch: 90.0 yaw: 17.7 roll: -90.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6016
+geometry_file_name: Z1_6016.stl
+x: -19.18 y: -11.75 z: 60.08
+pitch: 0.0 yaw: 37.83 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6017
+geometry_file_name: Z1_6017.stl
+x: -30.24 y: -44.48 z: 49.88
+pitch: 0.0 yaw: 0.0 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6018
+geometry_file_name: Z1_6018.stl
+x: -30.2 y: -44.48 z: -49.88
+pitch: 0.0 yaw: 0.0 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6019
+geometry_file_name: Z1_6019.stl
+x: -38.2 y: -1.67 z: -59.13
+pitch: 0.0 yaw: -45.0 roll: 180.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6020
+geometry_file_name: Z1_6020.stl
+x: -22.23 y: 28.6 z: -87.82
+pitch: 0.0 yaw: 0.0 roll: 180.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6021
+geometry_file_name: Z1_6021.stl
+x: -27.94 y: 45.96 z: -60.07
+pitch: 180.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6022
+geometry_file_name: Z1_6022.stl
+x: -28.17 y: 45.96 z: 60.08
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6023
+geometry_file_name: Z1_6023.stl
+x: -4.05 y: -23.48 z: 60.08
+pitch: 0.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6024
+geometry_file_name: Z1_6024.stl
+x: -10.56 y: -39.95 z: 59.14
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6025
+geometry_file_name: Z1_6025.stl
+x: -10.6 y: -39.66 z: -59.14
+pitch: 0.0 yaw: 0.0 roll: 180.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6026
+geometry_file_name: Z1_6026.stl
+x: 16.02 y: 26.0 z: -87.82
+pitch: 0.0 yaw: 0.0 roll: 180.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6027
+geometry_file_name: Z1_6027.stl
+x: 12.57 y: 45.96 z: -60.07
+pitch: 180.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6028
+geometry_file_name: Z1_6028.stl
+x: 12.78 y: 45.96 z: 60.08
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6029
+geometry_file_name: Z1_6029.stl
+x: 6.68 y: -23.48 z: 60.08
+pitch: 0.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6030
+geometry_file_name: Z1_6030.stl
+x: 23.56 y: -14.97 z: 60.08
+pitch: 0.0 yaw: -37.83 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6031
+geometry_file_name: Z1_6031.stl
+x: 17.94 y: -39.66 z: 59.14
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6032
+geometry_file_name: Z1_6032.stl
+x: 38.43 y: -44.48 z: 14.56
+pitch: 0.0 yaw: 0.0 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6033
+geometry_file_name: Z1_6033.stl
+x: 36.43 y: -44.48 z: -7.99
+pitch: 0.0 yaw: 0.0 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6034
+geometry_file_name: Z1_6034.stl
+x: 17.94 y: -39.66 z: -59.14
+pitch: 0.0 yaw: 0.0 roll: 180.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6035
+geometry_file_name: Z1_6035.stl
+x: 41.74 y: 45.96 z: -60.07
+pitch: 180.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6036
+geometry_file_name: Z1_6036.stl
+x: 39.23 y: 50.6 z: -10.73
+pitch: -90.0 yaw: 0.0 roll: -90.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6037
+geometry_file_name: Z1_6037.stl
+x: 43.56 y: 50.6 z: 38.42
+pitch: 180.0 yaw: 0.0 roll: -90.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6038
+geometry_file_name: Z1_6038.stl
+x: 41.67 y: 45.96 z: 60.08
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6039
+geometry_file_name: Z1_6039.stl
+x: 40.86 y: -39.66 z: 59.14
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6040
+geometry_file_name: Z1_6040.stl
+x: -14.38 y: -20.27 z: 1.91
+pitch: 0.0 yaw: 115.45 roll: -90.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6041
+geometry_file_name: Z1_6041.stl
+x: 14.38 y: -20.27 z: 1.91
+pitch: 0.0 yaw: -115.45 roll: -90.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6042
+geometry_file_name: Z1_6042.stl
+x: 55.07 y: -45.42 z: 28.87
+pitch: 90.0 yaw: 0.0 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6043
+geometry_file_name: Z1_6043.stl
+x: 55.07 y: -45.17 z: 0.0
+pitch: 90.0 yaw: 0.0 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6044
+geometry_file_name: Z1_6044.stl
+x: 55.07 y: -45.42 z: -28.87
+pitch: 90.0 yaw: 0.0 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6045
+geometry_file_name: Z1_6045.stl
+x: 55.07 y: -32.54 z: -64.25
+pitch: 90.0 yaw: 62.86 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6046
+geometry_file_name: Z1_6046.stl
+x: 55.07 y: -7.21 z: -77.23
+pitch: 90.0 yaw: 62.85 roll: 90.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6047
+geometry_file_name: Z1_6047.stl
+x: 55.07 y: 43.53 z: -73.25
+pitch: 90.0 yaw: -24.21 roll: -90.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6048
+geometry_file_name: Z1_6048.stl
+x: 53.94 y: 51.22 z: -21.54
+pitch: -90.0 yaw: 0.0 roll: -90.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6049
+geometry_file_name: Z1_6049.stl
+x: 53.94 y: 51.22 z: 20.04
+pitch: -90.0 yaw: 0.0 roll: -90.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6050
+geometry_file_name: Z1_6050.stl
+x: 55.07 y: 43.53 z: 73.75
+pitch: 90.0 yaw: 24.25 roll: -90.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6051
+geometry_file_name: Z1_6051.stl
+x: 60.45 y: 22.8 z: 77.0
+pitch: 90.0 yaw: -47.54 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6052
+geometry_file_name: Z1_6052.stl
+x: 60.45 y: -16.72 z: 64.61
+pitch: 90.0 yaw: -62.85 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6053
+geometry_file_name: Z1_6053.stl
+x: 60.45 y: -36.6 z: -8.32
+pitch: 90.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6054
+geometry_file_name: Z1_6054.stl
+x: 60.45 y: -18.0 z: -67.0
+pitch: 90.0 yaw: 62.5 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6055
+geometry_file_name: Z1_6055.stl
+x: 60.45 y: 17.61 z: -63.24
+pitch: 90.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6056
+geometry_file_name: Z1_6056.stl
+x: 60.45 y: 37.93 z: -54.3
+pitch: 90.0 yaw: 90.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6057
+geometry_file_name: Z1_6057.stl
+x: 60.45 y: 42.7 z: -15.62
+pitch: 90.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6058
+geometry_file_name: Z1_6058.stl
+x: 59.55 y: 41.0 z: 16.82
+pitch: 90.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6059
+geometry_file_name: Z1_6059.stl
+x: 60.45 y: 22.55 z: -11.66
+pitch: 90.0 yaw: -25.14 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6060
+geometry_file_name: Z1_6060.stl
+x: 8.0 y: -4.0 z: 24.5
+pitch: 90.0 yaw: 22.5 roll: -28.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6061
+geometry_file_name: Z1_6061.stl
+x: -3.0 y: -20.85 z: 75.0
+pitch: 90.0 yaw: 22.56 roll: -107.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_6062
+geometry_file_name: Z1_6062.stl
+x: 0.04 y: -46.5 z: 125.84
+pitch: 44.7 yaw: 8.6 roll: -22.7
+parent_node_name: SSREF
+
+unique_node_name: Z1_GE1
+geometry_file_name: Z1_GE1.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: Z1_GE2
+geometry_file_name: Z1_GE2.stl
+x: 0.0 y: 0.0 z: 0.0
+pitch: 0.0 yaw: 0.0 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: zh36
+geometry_file_name: zh36.stl
+x: 61.0 y: 27.4 z: 55.4
+pitch: 90.0 yaw: 65.3 roll: 0.0
+parent_node_name: SSREF
+
+unique_node_name: zh37
+geometry_file_name: zh37.stl
+x: 61.0 y: 6.58 z: -57.85
+pitch: 90.0 yaw: 38.0 roll: 0.0
+parent_node_name: SSREF
+

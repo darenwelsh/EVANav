@@ -1,0 +1,72 @@
+solid stl file generated from DOUG
+ facet normal -0.207927 -0.978144 -0.000000
+  outer loop
+   vertex -922.163269 46.937592 14.548635
+   vertex -923.141418 47.145519 14.548635
+   vertex -923.141418 47.145523 -13.676554
+  endloop
+ endfacet
+ facet normal -0.978140 0.207946 0.000000
+  outer loop
+   vertex -923.141418 47.145523 -13.676554
+   vertex -923.141418 47.145519 14.548635
+   vertex -922.933472 48.123661 14.548635
+  endloop
+ endfacet
+ facet normal -0.978140 0.207946 0.000000
+  outer loop
+   vertex -922.933472 48.123661 14.548635
+   vertex -922.933472 48.123665 -13.676554
+   vertex -923.141418 47.145523 -13.676554
+  endloop
+ endfacet
+ facet normal 0.207927 0.978144 0.000000
+  outer loop
+   vertex -921.955322 47.915737 -13.676554
+   vertex -922.933472 48.123665 -13.676554
+   vertex -922.933472 48.123661 14.548635
+  endloop
+ endfacet
+ facet normal 0.000000 -0.000000 -1.000000
+  outer loop
+   vertex -923.141418 47.145523 -13.676554
+   vertex -922.933472 48.123665 -13.676554
+   vertex -921.955322 47.915737 -13.676554
+  endloop
+ endfacet
+ facet normal -0.000000 0.000000 -1.000000
+  outer loop
+   vertex -921.955322 47.915737 -13.676554
+   vertex -922.163269 46.937595 -13.676554
+   vertex -923.141418 47.145523 -13.676554
+  endloop
+ endfacet
+ facet normal -0.207927 -0.978144 -0.000000
+  outer loop
+   vertex -923.141418 47.145523 -13.676554
+   vertex -922.163269 46.937595 -13.676554
+   vertex -922.163269 46.937592 14.548635
+  endloop
+ endfacet
+ facet normal 0.978140 -0.207946 -0.000000
+  outer loop
+   vertex -922.163269 46.937592 14.548635
+   vertex -922.163269 46.937595 -13.676554
+   vertex -921.955322 47.915737 -13.676554
+  endloop
+ endfacet
+ facet normal 0.978140 -0.207946 -0.000000
+  outer loop
+   vertex -921.955322 47.915737 -13.676554
+   vertex -921.955322 47.915733 14.548635
+   vertex -922.163269 46.937592 14.548635
+  endloop
+ endfacet
+ facet normal 0.207927 0.978144 0.000000
+  outer loop
+   vertex -922.933472 48.123661 14.548635
+   vertex -921.955322 47.915733 14.548635
+   vertex -921.955322 47.915737 -13.676554
+  endloop
+ endfacet
+endsolid

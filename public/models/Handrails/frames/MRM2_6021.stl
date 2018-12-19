@@ -1,0 +1,114 @@
+solid stl file generated from DOUG
+ facet normal 0.000000 0.000000 -1.000000
+  outer loop
+   vertex -933.539917 -50.859444 73.642021
+   vertex -948.412048 -48.503929 73.642021
+   vertex -948.103027 -47.552876 73.642021
+  endloop
+ endfacet
+ facet normal -0.000001 0.000000 -1.000000
+  outer loop
+   vertex -948.103027 -47.552876 73.642021
+   vertex -948.412048 -48.503929 73.642021
+   vertex -957.088013 -44.083324 73.642029
+  endloop
+ endfacet
+ facet normal -0.000001 0.000000 -1.000000
+  outer loop
+   vertex -957.088013 -44.083324 73.642029
+   vertex -956.608887 -43.218948 73.642029
+   vertex -948.103027 -47.552876 73.642021
+  endloop
+ endfacet
+ facet normal 0.000001 -0.000000 1.000000
+  outer loop
+   vertex -956.608887 -43.218948 74.642029
+   vertex -957.088013 -44.083324 74.642029
+   vertex -948.103027 -47.552876 74.642021
+  endloop
+ endfacet
+ facet normal 0.000001 -0.000000 1.000000
+  outer loop
+   vertex -948.103027 -47.552876 74.642021
+   vertex -957.088013 -44.083324 74.642029
+   vertex -948.412048 -48.503929 74.642021
+  endloop
+ endfacet
+ facet normal 0.000000 0.000000 1.000000
+  outer loop
+   vertex -948.412048 -48.503929 74.642021
+   vertex -933.539917 -50.859444 74.642021
+   vertex -948.103027 -47.552876 74.642021
+  endloop
+ endfacet
+ facet normal 0.000000 0.000000 1.000000
+  outer loop
+   vertex -933.522522 -49.862198 74.642021
+   vertex -948.103027 -47.552876 74.642021
+   vertex -933.539917 -50.859444 74.642021
+  endloop
+ endfacet
+ facet normal 0.000000 0.000000 -1.000000
+  outer loop
+   vertex -933.522522 -49.862198 73.642021
+   vertex -933.539917 -50.859444 73.642021
+   vertex -948.103027 -47.552876 73.642021
+  endloop
+ endfacet
+ facet normal -0.453989 -0.891007 0.000000
+  outer loop
+   vertex -957.088013 -44.083324 74.642029
+   vertex -957.088013 -44.083324 73.642029
+   vertex -948.412048 -48.503929 74.642021
+  endloop
+ endfacet
+ facet normal -0.453989 -0.891007 -0.000000
+  outer loop
+   vertex -948.412048 -48.503929 74.642021
+   vertex -957.088013 -44.083324 73.642029
+   vertex -948.412048 -48.503929 73.642021
+  endloop
+ endfacet
+ facet normal -0.156434 -0.987688 0.000000
+  outer loop
+   vertex -948.412048 -48.503929 73.642021
+   vertex -933.539917 -50.859444 74.642021
+   vertex -948.412048 -48.503929 74.642021
+  endloop
+ endfacet
+ facet normal -0.156434 -0.987688 -0.000000
+  outer loop
+   vertex -933.539917 -50.859444 73.642021
+   vertex -933.539917 -50.859444 74.642021
+   vertex -948.412048 -48.503929 73.642021
+  endloop
+ endfacet
+ facet normal 0.156434 0.987688 -0.000000
+  outer loop
+   vertex -933.522522 -49.862198 74.642021
+   vertex -933.522522 -49.862198 73.642021
+   vertex -948.103027 -47.552876 74.642021
+  endloop
+ endfacet
+ facet normal 0.156434 0.987688 -0.000000
+  outer loop
+   vertex -948.103027 -47.552876 74.642021
+   vertex -933.522522 -49.862198 73.642021
+   vertex -948.103027 -47.552876 73.642021
+  endloop
+ endfacet
+ facet normal 0.453988 0.891008 0.000000
+  outer loop
+   vertex -948.103027 -47.552876 73.642021
+   vertex -956.608887 -43.218948 74.642029
+   vertex -948.103027 -47.552876 74.642021
+  endloop
+ endfacet
+ facet normal 0.453988 0.891008 0.000000
+  outer loop
+   vertex -956.608887 -43.218948 73.642029
+   vertex -956.608887 -43.218948 74.642029
+   vertex -948.103027 -47.552876 73.642021
+  endloop
+ endfacet
+endsolid

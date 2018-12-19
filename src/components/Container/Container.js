@@ -34,6 +34,8 @@ export default class Container extends React.Component {
       { value: 3, color: '#8000FF', nodes: [] }, // purple		PHASE 3 MOD Lincoln Powell/lpowell25@student.umuc.edu 7/27/2018 Change route 3 color to purple
     ];
 
+    this.ControlsChild = React.createRef();
+
     // handle state changes
     this.state = {
       stationFile: null,
@@ -48,7 +50,6 @@ export default class Container extends React.Component {
       routesSecond: this.defaultRoutes,
       visibleRoutes: [1, 2, 3],
       visibleRoutesSecond: [1, 2, 3],
-      routesLoaded: false,
       wingspan: 4,
       wingspanSecond: 4,
       crewOne: true,
@@ -62,11 +63,12 @@ export default class Container extends React.Component {
     this.handleStationFileLoad = this.handleStationFileLoad.bind(this);
     this.handleHandrailFilesLoad = this.handleHandrailFilesLoad.bind(this);
     this.handleStrFilesLoad = this.handleStrFilesLoad.bind(this);
+    this.handleInitialStrFilesLoad = this.handleInitialStrFilesLoad.bind(this);
     this.handleSidebarOpen = this.handleSidebarOpen.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleSecondSubmit = this.handleSecondSubmit.bind(this);
     this.handleStartEndHandrailsChanged = this.handleStartEndHandrailsChanged.bind(this);
-   // this.handleSecondStartEndHandrailsChanged = this.handleSecondStartEndHandrailsChanged.bind(this);
+    // this.handleSecondStartEndHandrailsChanged = this.handleSecondStartEndHandrailsChanged.bind(this);
     this.handleVisibleRouteChanges = this.handleVisibleRouteChanges.bind(this);
     this.handleSecondVisibleRouteChanges = this.handleSecondVisibleRouteChanges.bind(this);
     this.switchCrewView = this.switchCrewView.bind(this);
@@ -88,6 +90,7 @@ export default class Container extends React.Component {
       routes: this.defaultRoutes,
       routesSecond: this.defaultRoutes,
     });
+    this.ControlsChild.current.onResetPathResult();
   }
 
   switchCrewView(type) {
@@ -137,6 +140,12 @@ export default class Container extends React.Component {
     this.setState({ strFiles });
   }
 
+  // method to upload ONLY initial str file
+  handleInitialStrFilesLoad(strFiles, nodes) {
+    this.handrails = this.handrails.concat(nodes);
+    this.setState({ strFiles });
+  }
+
   //method to toggle sidebar to open state
   handleSidebarOpen(open) {
     this.setState({ sidebarOpen: open });
@@ -182,8 +191,9 @@ export default class Container extends React.Component {
         startHandrail: data.startHandrail ? data.startHandrail : "",				// PHASE 3 MOD Lincoln Powell/lpowell25@student.umuc.edu 8/3/2018 Removed .value attribute call from ternary true condition, data.startHandrail; changed ternary false condition, null, to empty string
         endHandrail: data.endHandrail ? data.endHandrail : "",						// PHASE 3 MOD Lincoln Powell/lpowell25@student.umuc.edu 8/3/2018 Removed .value attribute call from ternary true condition, data.endHandrail; changed ternary false condition, null, to empty string
         nodes: this.handrails,
-        wingspan: data.wingspan.toString(),
-        previousRoutes: this.state.routes //passing previous routes
+        wingspan: data.wingspan.toString()
+        //commenting out because RouteRequest doesnt have this property therefore deserialization will fail later
+        //previousRoutes: this.state.routes //passing previous routes
       })
     })
       .then(resp => resp.json())
@@ -196,9 +206,9 @@ export default class Container extends React.Component {
         }));
         this.setState({
           ...data,
-          routes: resultRoutes,
-          routesLoaded: true
+          routes: resultRoutes
         });
+        this.ControlsChild.current.onCrewOnePathLoaded(resultRoutes, true);
       })
       .catch(e => console.error(e));
   }
@@ -213,8 +223,9 @@ export default class Container extends React.Component {
         startHandrail: data.startHandrailSecond ? data.startHandrailSecond : "",
         endHandrail: data.endHandrailSecond ? data.endHandrailSecond : "",
         nodes: this.handrails,
-        wingspan: data.wingspanSecond.toString(),
-        previousRoutes: this.state.routesSecond //passing previous routes
+        wingspan: data.wingspanSecond.toString()
+        //commenting out because RouteRequest doesnt have this property therefore deserialization will fail later
+        //previousRoutes: this.state.routesSecond //passing previous routes
       })
     })
       .then(resp => resp.json())
@@ -228,8 +239,8 @@ export default class Container extends React.Component {
         this.setState({
           ...data,
           routesSecond: resultRoutes,
-          routesLoaded: true
         });
+        this.ControlsChild.current.onCrewTwoPathLoaded(resultRoutes, true);
       })
       .catch(e => console.error(e));
   }
@@ -248,7 +259,6 @@ export default class Container extends React.Component {
       routesSecond,
       visibleRoutes,
       visibleRoutesSecond,
-      routesLoaded,
       wingspan,
       wingspanSecond,
     } = this.state;
@@ -270,11 +280,13 @@ export default class Container extends React.Component {
           sidebar={
             <div className='sidebar-wrapper'>
               <Controls
+                ref = {this.ControlsChild}
                 onStationFileLoad={this.handleStationFileLoad}
                 onHandrailFilesLoad={this.handleHandrailFilesLoad}
                 onStrFilesLoad={this.handleStrFilesLoad}
+                onInitialStrFilesLoad={this.handleInitialStrFilesLoad}
                 onStartEndHandrailsChange={this.handleStartEndHandrailsChanged}
-               // onSecondStartEndHandrailsChange={this.handleSecondStartEndHandrailsChanged}
+                // onSecondStartEndHandrailsChange={this.handleSecondStartEndHandrailsChanged}
                 onSubmit={this.handleSubmit}
                 onSecondSumbit={this.handleSecondSubmit}
                 startHandrail={startHandrail}
@@ -295,51 +307,6 @@ export default class Container extends React.Component {
                 onSecondWingspanChange={this.handleSecondWingspanChange}
                 onCrewTabChange={this.switchCrewView}
               />
-              {routesLoaded &&
-                <div>
-                  <h1 className='results-header'>Route Results</h1>
-                  <div className='results'>
-                  <table>
-                    <tbody>
-                      <tr>
-                        <td className='td-crew1-results'>
-                          <div className='crew1-results'>
-                            <h3 className='crew1-results-header'>1. Crew 1 Route Results</h3>
-                              {routes.map((route, routeI) =>
-                                <div key={routeI}>
-                                  <div>Route {routeI + 1}</div>
-                                  <div>Total distance: {route.distancetotal} inches</div>
-                                  <ul>
-                                    {route.nodes.map((node, nodeI) =>
-                                      <li key={nodeI}>{node}</li>
-                                    )}
-                                  </ul>
-                                </div>
-                              )}
-                            </div>
-                          </td>
-                          <td className='td-crew2-results'>
-                            <div className='crew2-results'>
-                              <h3 className='crew2-results-header'>2. Crew 2 Route Results</h3>
-                              {routesSecond.map((route, routeI) =>
-                                <div key={routeI}>
-                                  <div>Route {routeI + 1}</div>
-                                  <div>Total distance: {route.distancetotal} inches</div>
-                                  <ul>
-                                    {route.nodes.map((node, nodeI) =>
-                                      <li key={nodeI}>{node}</li>
-                                    )}
-                                  </ul>
-                                </div>
-                              )}
-                            </div>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              }
               <div
                 className='sidebar-hide-button'
                 onClick={() => this.handleSidebarOpen(false)}
@@ -376,7 +343,7 @@ export default class Container extends React.Component {
             endHandrailSecond={endHandrailSecond}
             crewMemberSelected={this.state.crewOne ? 1 : 2}
             routes={routes.filter(r => visibleRoutes.includes(r.value)).reverse()}
-            routesSecond={routesSecond.filter(r => visibleRoutesSecond.includes(r.value)).reverse()}      
+            routesSecond={routesSecond.filter(r => visibleRoutesSecond.includes(r.value)).reverse()}
             wingspan={wingspan}
             wingspanSecond={wingspanSecond}
 

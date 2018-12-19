@@ -1,0 +1,58 @@
+solid stl file generated from DOUG
+ facet normal -0.000000 -0.872079 -0.489364
+  outer loop
+   vertex -639.125183 25.876699 85.166306
+   vertex -639.125183 25.387327 86.038399
+   vertex -660.418152 25.387327 86.038406
+  endloop
+ endfacet
+ facet normal 0.000000 -0.489359 0.872082
+  outer loop
+   vertex -660.418152 25.387327 86.038406
+   vertex -639.125183 25.387327 86.038399
+   vertex -660.418152 26.259405 86.527763
+  endloop
+ endfacet
+ facet normal -0.000000 -0.872079 -0.489364
+  outer loop
+   vertex -660.418152 25.387327 86.038406
+   vertex -660.418152 25.876699 85.166313
+   vertex -639.125183 25.876699 85.166306
+  endloop
+ endfacet
+ facet normal -0.000000 0.489377 -0.872072
+  outer loop
+   vertex -639.125183 25.876699 85.166306
+   vertex -660.418152 25.876699 85.166313
+   vertex -660.418152 26.748777 85.655693
+  endloop
+ endfacet
+ facet normal -0.000000 0.489377 -0.872072
+  outer loop
+   vertex -660.418152 26.748777 85.655693
+   vertex -639.125183 26.748777 85.655685
+   vertex -639.125183 25.876699 85.166306
+  endloop
+ endfacet
+ facet normal 0.000000 0.872074 0.489374
+  outer loop
+   vertex -660.418152 26.259405 86.527763
+   vertex -639.125183 26.748777 85.655685
+   vertex -660.418152 26.748777 85.655693
+  endloop
+ endfacet
+ facet normal 0.000000 0.872074 0.489374
+  outer loop
+   vertex -639.125183 26.259405 86.527756
+   vertex -639.125183 26.748777 85.655685
+   vertex -660.418152 26.259405 86.527763
+  endloop
+ endfacet
+ facet normal 0.000000 -0.489359 0.872082
+  outer loop
+   vertex -660.418152 26.259405 86.527763
+   vertex -639.125183 25.387327 86.038399
+   vertex -639.125183 26.259405 86.527756
+  endloop
+ endfacet
+endsolid

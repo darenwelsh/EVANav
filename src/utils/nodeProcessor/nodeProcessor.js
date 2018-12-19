@@ -48,7 +48,7 @@ const positionModelsBasedOnStrFile = (modelsMap, file) => {
     if (model) {
       const [x, y, z] = allLines[i + 2].split(' ').map(pos => parseInt(pos) * MMETER_PER_INCH);
       // adjust model position to fit the main model, this is probably from rounding
-      model.position.set(x - 0.15, y - 0.05, z - 0.25)
+      model.position.set(x + 1, y - 0.075, z - 0.025)
     }
   }
 };
@@ -67,20 +67,20 @@ const parseNodesFromStrFile = file => {
     SSREF
   */
   for (let i = 0; i < allLines.length; i += 5) {
-    const unique_node_name = allLines[i];
+    const unique_node_name = allLines[i]+ '';
     const geometry_file_name = unique_node_name + '.stl';
     const [x, y, z] = allLines[i + 2].split(' ');
     const [pitch, yaw, roll] = allLines[i + 3].split(' ');
-    const parent_node_name = allLines[i + 4];
+    const parent_node_name = allLines[i + 4]+ '';
     nodes.push({
       unique_node_name,
       geometry_file_name,
-      x,
-      y,
-      z,
-      pitch,
-      yaw,
-      roll,
+      x: Number(x),
+      y: Number(y),
+      z: Number(z),
+      pitch: Number(pitch),
+      yaw: Number(yaw),
+      roll: Number(roll),
       parent_node_name
     });
   }

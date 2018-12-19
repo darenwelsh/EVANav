@@ -32,26 +32,24 @@ import java.util.Map;
 import java.util.Set;
 
 public class Dijkstra {
-	private final List < Node > nodes;
-	private final List < Edge > edges;
-	private Set < Node > settledNodes;
-	private Set < Node > unSettledNodes;
-	private Map < Node,
-	Node > predecessors;
-	private Map < Node,
-	Double > distance;
+	private final List<Node> nodes;
+	private final List<Edge> edges;
+	private Set<Node> settledNodes;
+	private Set<Node> unSettledNodes;
+	private Map<Node, Node> predecessors;
+	private Map<Node, Double> distance;
 
 	public Dijkstra(Graph graph) {
 		// create a copy of the array so that we can operate on this array
-		this.nodes = new ArrayList < >(graph.getNodes());
-		this.edges = new ArrayList < >(graph.getEdges());
+		this.nodes = new ArrayList<>(graph.getNodes());
+		this.edges = new ArrayList<>(graph.getEdges());
 	}
 
 	public void execute(Node source) {
-		settledNodes = new HashSet < >();
-		unSettledNodes = new HashSet < >();
-		distance = new HashMap < >();
-		predecessors = new HashMap < >();
+		settledNodes = new HashSet<>();
+		unSettledNodes = new HashSet<>();
+		distance = new HashMap<>();
+		predecessors = new HashMap<>();
 		distance.put(source, 0.0);
 		unSettledNodes.add(source);
 		while (unSettledNodes.size() > 0) {
@@ -63,21 +61,22 @@ public class Dijkstra {
 	}
 
 	private void findMinimalDistances(Node node) {
-		List < Node > adjacentNodes = getNeighbors(node);
-		adjacentNodes.stream().filter((target) ->(getShortestDistance(target) > getShortestDistance(node) + getDistance(node, target))).map((target) ->{
-			distance.put(target, getShortestDistance(node) + getDistance(node, target));
-			return target;
-		}).map((target) ->{
-			predecessors.put(target, node);
-			return target;
-		}).forEachOrdered((target) ->{
-			unSettledNodes.add(target);
-		});
+		List<Node> adjacentNodes = getNeighbors(node);
+		adjacentNodes.stream().filter((target) -> (getShortestDistance(target) > getShortestDistance(node) + getDistance(node, target)))
+				.map((target) -> {
+					distance.put(target, getShortestDistance(node) + getDistance(node, target));
+					return target;
+				}).map((target) -> {
+					predecessors.put(target, node);
+					return target;
+				}).forEachOrdered((target) -> {
+					unSettledNodes.add(target);
+				});
 
 	}
 
 	private double getDistance(Node node, Node target) {
-		for (Edge edge: edges) {
+		for (Edge edge : edges) {
 			if (edge.getSource().equals(node) && edge.getDestination().equals(target)) {
 				return edge.getWeight();
 			}
@@ -85,17 +84,18 @@ public class Dijkstra {
 		throw new RuntimeException("Should not happen");
 	}
 
-	private List < Node > getNeighbors(Node node) {
-		List < Node > neighbors = new ArrayList < >();
-		edges.stream().filter((edge) ->(edge.getSource().equals(node) && !isSettled(edge.getDestination()))).forEachOrdered((edge) ->{
-			neighbors.add(edge.getDestination());
-		});
+	private List<Node> getNeighbors(Node node) {
+		List<Node> neighbors = new ArrayList<>();
+		edges.stream().filter((edge) -> (edge.getSource().equals(node) && !isSettled(edge.getDestination())))
+				.forEachOrdered((edge) -> {
+					neighbors.add(edge.getDestination());
+				});
 		return neighbors;
 	}
 
-	private Node getMinimum(Set < Node > nodes) {
+	private Node getMinimum(Set<Node> nodes) {
 		Node minimum = null;
-		for (Node node: nodes) {
+		for (Node node : nodes) {
 			if (minimum == null) {
 				minimum = node;
 			} else {
@@ -121,11 +121,11 @@ public class Dijkstra {
 	}
 
 	/*
-     * This method returns the path from the source to the selected target and
-     * NULL if no path exists
-     */
-	public LinkedList < Node > getPath(Node target) {
-		LinkedList < Node > path = new LinkedList < >();
+	 * This method returns the path from the source to the selected target and NULL
+	 * if no path exists
+	 */
+	public LinkedList<Node> getPath(Node target) {
+		LinkedList<Node> path = new LinkedList<>();
 		Node step = target;
 		// check if a path exists
 		if (predecessors.get(step) == null) {
