@@ -16,7 +16,8 @@
  */
 package com.nasa;
 
-import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * Project: NASA Path in conjunction with University of Maryland University
@@ -28,29 +29,27 @@ public class TestWingspanThresholdsCalc {
 
     public static void main(String[] args) {
 
-        RouteRequest rr = new RouteRequest();
-        
-        //Allow input of wingspan value
-        Scanner input = new Scanner(System.in);
-        System.out.println("Enter wingspan: ");
-        String wingspan = input.nextLine();
-        System.out.println();
-        
-        //Set the wingspan
+        RouteRequest rr = new RouteRequest("", "", new ArrayList<Node>(), "");
+
+        // Allow input of wingspan value
+        String wingspan = "4";
+
+        // Set the wingspan
         rr.setWingspan(wingspan);
 
-        //Print the thresholds using the wingspan value that will be used for the shortest path calculation
-        Double[] thresholds = rr.getWinsgspanThresholds();
-        
-        //Calculate the correct thresholds
+        // Print the thresholds using the wingspan value that will be used for the
+        // shortest path calculation
+        Double[] thresholds = {rr.getWingspanThresholds(0),rr.getWingspanThresholds(1),rr.getWingspanThresholds(2)};
+
+        // Calculate the correct thresholds
         Double wingspanInches = Double.parseDouble(wingspan) * 12.0;
-        Double[] correctThresholds = {wingspanInches, (wingspanInches + 8.0), (wingspanInches + 16.0)};
-        
-        //Check if the calculated thresholds are correct
+        Double[] correctThresholds = { wingspanInches, (wingspanInches - 4.0), (wingspanInches - 8.0) };
+
+        // Check if the calculated thresholds are correct
         if (Arrays.equals(thresholds, correctThresholds)) {
-        	System.out.println("Test passed!");
+            System.out.println("Test passed!");
         } else {
-        	System.out.println("Test failed!");
+            System.out.println("Test failed!");
         }
     }
 }

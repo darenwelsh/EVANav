@@ -5,12 +5,12 @@ import java.io.IOException;
 import java.util.Map;
 import java.util.List;
 import java.util.ArrayList;
-import java.util.Arrays;
+//import java.util.Arrays;
 import java.util.HashMap;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
-import fi.iki.elonen.NanoHTTPD.Response;
+//import fi.iki.elonen.NanoHTTPD.Response;
 // NanoHTTPD < v3.0.0 
 import fi.iki.elonen.NanoHTTPD;
 // April 2018 - George - Added code to Add distances between each handrail pair in each path here and in Container.js 
@@ -67,7 +67,7 @@ public class App extends NanoHTTPD {
 		logger.traceEntry();
 		try {
 			new App();
-		} catch(IOException ioe) {
+		} catch (IOException ioe) {
 			logger.error("Couldn't start server", ioe);
 		}
 		logger.traceExit();
@@ -76,9 +76,7 @@ public class App extends NanoHTTPD {
 	@Override
 	public Response serve(IHTTPSession session) {
 		logger.traceEntry();
-		Map < String,
-		String > map = new HashMap < String,
-		String > ();
+		Map<String, String> map = new HashMap<String, String>();
 		Method method = session.getMethod();
 
 		// Parse map for all PUTs and POSTs
@@ -86,7 +84,8 @@ public class App extends NanoHTTPD {
 			try {
 				session.parseBody(map);
 			} catch (IOException ioe) {
-				return newFixedLengthResponse(Response.Status.INTERNAL_ERROR, MIME_PLAINTEXT, "SERVER INTERNAL ERROR: IOException: " + ioe.getMessage());
+				return newFixedLengthResponse(Response.Status.INTERNAL_ERROR, MIME_PLAINTEXT,
+						"SERVER INTERNAL ERROR: IOException: " + ioe.getMessage());
 			} catch (ResponseException re) {
 				return newFixedLengthResponse(re.getStatus(), MIME_PLAINTEXT, re.getMessage());
 			}
@@ -95,34 +94,34 @@ public class App extends NanoHTTPD {
 		// Get POST request
 		String postBody = map.get("postData");
 		Gson gson = new Gson();
-		RouteRequest rr = new RouteRequest("", "", new ArrayList < Node > (), "");
+		RouteRequest rr = new RouteRequest("", "", new ArrayList<Node>(), "");
 		try {
 			rr = gson.fromJson(postBody, RouteRequest.class);
-		} catch(Exception e) {
-			logger.error("",  e);
+		} catch (Exception e) {
+			logger.error("", e);
 		}
 
 		// Output start and end points to console
 		logger.info("Start: " + rr.getStartHandrail());
 		logger.info("End: " + rr.getEndHandrail());
-		//System.out.println("Running algorithm...");	JUSW COMMENTED - Moved line below
+		// System.out.println("Running algorithm..."); JUSW COMMENTED - Moved line below
 
 		DijkstraPaths dp = new DijkstraPaths();
-		ArrayList < List < Node >> listOfNodeLists = new ArrayList < List < Node >> ();
+		ArrayList<List<Node>> listOfNodeLists = new ArrayList<List<Node>>();
 		String resultListsString = "";
-		//int[] thresholds = {46, 54, 62};	' JUSW COMMENTED - Replaced with wingspan value calculation in RouteRequest
 
 		logger.info("Running algorithm...");
-
+		
 		// Apply Dijkstra's algorithm to calculate shortest path
-		for (int i = 0; i < rr.getWingspanThresholds().length; i++) {
-			List < Node > nodes = new ArrayList < Node > ();
-			ArrayList < String > nodeIds = new ArrayList < String > ();
+		for (int i = 0; i < rr.getThresholdSize(); i++) {
+			List<Node> nodes = new ArrayList<Node>();
+			ArrayList<String> nodeIds = new ArrayList<String>();
 
 			// Pull list of shortest path nodes, throw exception for any calculation errors
 			try {
-				nodes = dp.getShortestPath(rr.getStartHandrail(), rr.getEndHandrail(), rr.getNodes(), rr.getWingspanThresholds()[i]);
-			} catch(Exception e) {
+				nodes = dp.getShortestPath(rr.getStartHandrail(), rr.getEndHandrail(), rr.getNodes(),
+						rr.getWingspanThresholds(i));
+			} catch (Exception e) {
 				logger.error("There was an error running the algorithm", e);
 			}
 
@@ -133,17 +132,21 @@ public class App extends NanoHTTPD {
 			// If the shortest path is not NULL, write the node list with distances to console
 			if (nodes == null) {
 				logger.warn("There is no path");
+				//TODO: find a clean way to stop the process here since subsequent threshold will also 
+				// return no path
 			} else {
 				logger.info("Route " + (i + 1));
 				Node nodeLast = null;
 				double distance = 0;
 
 				// Loop through each node to display handrail and calculate distance
-				for (Node node: nodes) {
+				for (Node node : nodes) {
 					String nodeId = node.getNodeId();
 
-					// For each handrail after the first, calculate distance between previous and current handrail
-					// For each handrail distance tally up the total distance between the first handrail and the last
+					// For each handrail after the first, calculate distance between previous and
+					// current handrail
+					// For each handrail distance tally up the total distance between the first
+					// handrail and the last
 					// Truncate the distancetotal to one decimals
 					try {
 						if (nodeLast != null) {
@@ -152,11 +155,11 @@ public class App extends NanoHTTPD {
 							distancetotal += distance;
 							distancetotal = (double) Math.round(distancetotal * 10) / 10;
 						}
-					} catch(Exception ex) {
+					} catch (Exception ex) {
 						logger.error("Error calculating handrail distance", ex);
 					}
 
-					//Added distances between each handrail pair in each path
+					// Added distances between each handrail pair in each path
 
 					if (distance != 0.0) {
 						nodeIds.add(Double.toString(distance) + "\"");
@@ -181,7 +184,7 @@ public class App extends NanoHTTPD {
 			resultListsString += "{\"distancetotal\":" + distancetotal + ",\"nodes\":" + gson.toJson(nodeIds) + "}";
 
 			// Add delimiter for each but last
-			if (i != rr.getWingspanThresholds().length - 1) {
+			if (i != rr.getThresholdSize() - 1) {
 				resultListsString += ", ";
 			}
 		}
@@ -195,16 +198,4 @@ public class App extends NanoHTTPD {
 
 		return logger.traceExit(response);
 	}
-
-	//  public Double[] getWingspanThresholds(Double wingspan) {   
-	//	    // Convert the wingspan value from feet to inches
-	//	  	Double wingspanInches = wingspan * 12.0;
-	//		System.out.println("Wingspan : " + wingspan + " ft --> " + Double.toString(wingspanInches) + " in");
-	//		    
-	//		// Thresholds for paths are the wingspan distance incremented by 8 inches for each path
-	//		Double[] thresholds = {wingspanInches, (wingspanInches + 8.0), (wingspanInches + 16.0)};	
-	//		System.out.println("Thresholds: {" + wingspanInches + ", " + (wingspanInches + 8.0) + ", " + (wingspanInches + 16.0) + "}");
-	//		
-	//		return thresholds;
-	//	  }
 }

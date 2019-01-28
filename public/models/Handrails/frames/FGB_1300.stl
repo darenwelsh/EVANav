@@ -1,0 +1,86 @@
+solid stl file generated from DOUG
+ facet normal -0.687790 -0.185593 -0.701783
+  outer loop
+   vertex -517.386536 -16.452173 83.668480
+   vertex -516.697327 -16.315598 82.956894
+   vertex -517.158630 -17.425261 83.702461
+  endloop
+ endfacet
+ facet normal -0.687791 -0.185593 -0.701783
+  outer loop
+   vertex -517.158630 -17.425261 83.702461
+   vertex -516.697327 -16.315598 82.956894
+   vertex -516.469421 -17.288687 82.990875
+  endloop
+ endfacet
+ facet normal 0.227913 -0.973088 0.033983
+  outer loop
+   vertex -516.469421 -17.288687 82.990875
+   vertex -501.509918 -13.202467 99.669495
+   vertex -517.158630 -17.425261 83.702461
+  endloop
+ endfacet
+ facet normal 0.227914 -0.973088 0.033982
+  outer loop
+   vertex -500.820709 -13.065892 98.957909
+   vertex -501.509918 -13.202467 99.669495
+   vertex -516.469421 -17.288687 82.990875
+  endloop
+ endfacet
+ facet normal 0.687791 0.185593 0.701783
+  outer loop
+   vertex -501.048615 -12.092805 98.923927
+   vertex -501.509918 -13.202467 99.669495
+   vertex -500.820709 -13.065892 98.957909
+  endloop
+ endfacet
+ facet normal 0.689203 0.136568 -0.711581
+  outer loop
+   vertex -500.820709 -13.065892 98.957909
+   vertex -516.697327 -16.315598 82.956894
+   vertex -501.048615 -12.092805 98.923927
+  endloop
+ endfacet
+ facet normal -0.227913 0.973088 -0.033983
+  outer loop
+   vertex -501.048615 -12.092805 98.923927
+   vertex -516.697327 -16.315598 82.956894
+   vertex -501.737823 -12.229379 99.635513
+  endloop
+ endfacet
+ facet normal -0.227915 0.973088 -0.033981
+  outer loop
+   vertex -501.737823 -12.229379 99.635513
+   vertex -516.697327 -16.315598 82.956894
+   vertex -517.386536 -16.452173 83.668480
+  endloop
+ endfacet
+ facet normal -0.689203 -0.136568 0.711581
+  outer loop
+   vertex -517.386536 -16.452173 83.668480
+   vertex -501.509918 -13.202467 99.669495
+   vertex -501.737823 -12.229379 99.635513
+  endloop
+ endfacet
+ facet normal -0.689203 -0.136568 0.711581
+  outer loop
+   vertex -517.158630 -17.425261 83.702461
+   vertex -501.509918 -13.202467 99.669495
+   vertex -517.386536 -16.452173 83.668480
+  endloop
+ endfacet
+ facet normal 0.687791 0.185593 0.701783
+  outer loop
+   vertex -501.737823 -12.229379 99.635513
+   vertex -501.509918 -13.202467 99.669495
+   vertex -501.048615 -12.092805 98.923927
+  endloop
+ endfacet
+ facet normal 0.689203 0.136568 -0.711581
+  outer loop
+   vertex -516.469421 -17.288687 82.990875
+   vertex -516.697327 -16.315598 82.956894
+   vertex -500.820709 -13.065892 98.957909
+  endloop
+ endfacet
+endsolid

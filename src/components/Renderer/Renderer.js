@@ -87,7 +87,7 @@ export default class Renderer extends React.Component {
             scene_bg_color = '#000', // black (for navy #0a2044)
                 hemisphere_sky_color = '#eff6f7', //light blue
                 hemisphere_ground_color = '#eff6f7', //light blue
-                hemisphere_intensity = .7
+                hemisphere_intensity = .2
         } = this.props;
 
         // checks for webgl
@@ -114,8 +114,8 @@ export default class Renderer extends React.Component {
         this.scene.add(new THREE.HemisphereLight(hemisphere_sky_color, hemisphere_ground_color, hemisphere_intensity));
 
         // addShadowedLight parameters (x, y, z, color, intensity)
-        this.addShadowedLight(1, 1, 1, 0xffffff, .8);
-        this.addShadowedLight(0.5, 1, -1, 0xffffff, 1);
+        this.addShadowedLight(1, 1, 1, 0xffffff, .6);
+        this.addShadowedLight(0.5, 1, -1, 0xffffff, .8);
 
         // add ambientLight
         const ambientLight = new THREE.AmbientLight(0x2c3e50);

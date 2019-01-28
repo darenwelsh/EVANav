@@ -1,0 +1,114 @@
+solid stl file generated from DOUG
+ facet normal 0.000000 0.000000 1.000000
+  outer loop
+   vertex -888.968689 -25.220676 74.641953
+   vertex -884.148193 -15.759874 74.641953
+   vertex -885.099243 -15.450858 74.641953
+  endloop
+ endfacet
+ facet normal -0.000000 -0.000000 1.000000
+  outer loop
+   vertex -885.099243 -15.450858 74.641953
+   vertex -884.148193 -15.759874 74.641953
+   vertex -882.279968 -3.964366 74.641953
+  endloop
+ endfacet
+ facet normal 0.000000 0.000000 1.000000
+  outer loop
+   vertex -882.279968 -3.964366 74.641953
+   vertex -883.267639 -3.886633 74.641953
+   vertex -885.099243 -15.450858 74.641953
+  endloop
+ endfacet
+ facet normal 0.000000 0.000000 -1.000000
+  outer loop
+   vertex -882.279968 -3.964365 73.641953
+   vertex -884.148193 -15.759873 73.641953
+   vertex -885.099243 -15.450857 73.641953
+  endloop
+ endfacet
+ facet normal -0.000000 -0.000000 -1.000000
+  outer loop
+   vertex -885.099243 -15.450857 73.641953
+   vertex -884.148193 -15.759873 73.641953
+   vertex -888.968689 -25.220676 73.641953
+  endloop
+ endfacet
+ facet normal 0.000000 0.000000 -1.000000
+  outer loop
+   vertex -888.968689 -25.220676 73.641953
+   vertex -889.825256 -24.726154 73.641953
+   vertex -885.099243 -15.450857 73.641953
+  endloop
+ endfacet
+ facet normal -0.000000 0.000000 1.000000
+  outer loop
+   vertex -885.099243 -15.450858 74.641953
+   vertex -889.825256 -24.726154 74.641953
+   vertex -888.968689 -25.220676 74.641953
+  endloop
+ endfacet
+ facet normal -0.000000 0.000000 -1.000000
+  outer loop
+   vertex -883.267639 -3.886633 73.641953
+   vertex -882.279968 -3.964365 73.641953
+   vertex -885.099243 -15.450857 73.641953
+  endloop
+ endfacet
+ facet normal 0.987688 -0.156434 -0.000000
+  outer loop
+   vertex -882.279968 -3.964366 74.641953
+   vertex -884.148193 -15.759874 74.641953
+   vertex -882.279968 -3.964365 73.641953
+  endloop
+ endfacet
+ facet normal 0.987688 -0.156434 -0.000000
+  outer loop
+   vertex -882.279968 -3.964365 73.641953
+   vertex -884.148193 -15.759874 74.641953
+   vertex -884.148193 -15.759873 73.641953
+  endloop
+ endfacet
+ facet normal 0.891007 -0.453989 -0.000000
+  outer loop
+   vertex -884.148193 -15.759873 73.641953
+   vertex -884.148193 -15.759874 74.641953
+   vertex -888.968689 -25.220676 74.641953
+  endloop
+ endfacet
+ facet normal 0.891007 -0.453989 0.000000
+  outer loop
+   vertex -888.968689 -25.220676 74.641953
+   vertex -888.968689 -25.220676 73.641953
+   vertex -884.148193 -15.759873 73.641953
+  endloop
+ endfacet
+ facet normal -0.987688 0.156435 0.000000
+  outer loop
+   vertex -883.267639 -3.886633 74.641953
+   vertex -883.267639 -3.886633 73.641953
+   vertex -885.099243 -15.450858 74.641953
+  endloop
+ endfacet
+ facet normal -0.987688 0.156435 0.000000
+  outer loop
+   vertex -885.099243 -15.450858 74.641953
+   vertex -883.267639 -3.886633 73.641953
+   vertex -885.099243 -15.450857 73.641953
+  endloop
+ endfacet
+ facet normal -0.891006 0.453992 0.000000
+  outer loop
+   vertex -885.099243 -15.450857 73.641953
+   vertex -889.825256 -24.726154 74.641953
+   vertex -885.099243 -15.450858 74.641953
+  endloop
+ endfacet
+ facet normal -0.891006 0.453992 -0.000000
+  outer loop
+   vertex -889.825256 -24.726154 73.641953
+   vertex -889.825256 -24.726154 74.641953
+   vertex -885.099243 -15.450857 73.641953
+  endloop
+ endfacet
+endsolid

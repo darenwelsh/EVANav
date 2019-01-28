@@ -96,6 +96,44 @@ main {
     }
   }
   
+  .legend-title {
+    background-color: Grey;
+    color: Black;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .legend-key1 {
+    background-color: Grey;
+    color: Black;
+    border-right-style: solid;
+    border-left-style: solid;
+    padding: 5px;
+    text-align: left;
+  } 
+  
+  .legend-key2 {
+    background-color: Grey;
+    color: Black;
+    border-right-style: solid;
+    border-left-style: solid;
+    padding: 5px;
+    text-align: left;
+  }
+  .legend-key3 {
+    background-color: Grey;
+    color: Black;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    padding: 5px;
+    text-align: left;
+  }
+
   .file-controls {
     display: flex;
     flex-direction: column;

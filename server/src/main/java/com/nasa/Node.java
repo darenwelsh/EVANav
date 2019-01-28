@@ -43,7 +43,8 @@ public class Node {
 		parent_node_name = "parentNode";
 	}
 
-	protected Node(String unique_node_name, String geometry_file_name, double x, double y, double z, double pitch, double yaw, double roll, String parent_node_name) {
+	protected Node(String unique_node_name, String geometry_file_name, double x, double y, double z, double pitch,
+			double yaw, double roll, String parent_node_name) {
 		this.unique_node_name = unique_node_name;
 		this.geometry_file_name = geometry_file_name;
 		this.x = x;
