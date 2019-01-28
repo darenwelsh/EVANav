@@ -172,3 +172,28 @@ Here is a non-exhaustive list of remaining work:
 1. Add UI allowing user to specify starboard and port SARJ angles (and other articulating structures?)
 1. Add UI allowing user to specify location of MT and CETA Carts
 1. Add UI option to choose optimal path for 1G environment (in the NBL) instead of optimal path for microgravity
+
+
+## Basic install instructions
+1. Download and install git: https://git-scm.com/downloads
+1. Download and install latest nodejs: https://nodejs.org/download/
+1. Install yarn globally. After node is installed you run this in a cmd window: `npm install yarn -g`
+1. Install Google chrome: https://www.google.com/chrome/ (testing has shown Edge may peform better than Chrome)
+1. Install python: https://www.python.org/downloads/windows/
+1. Install Java jdk (11.0.1+): https://www.oracle.com/technetwork/java/javase/downloads/index.html
+1. Edit environment variables
+   1. In Search, search for and then select: Advanced system settings
+   1. Click Environment Variables.
+   1. In the section System Variables, click New. Then add `JAVA_HOME` (the value is the location of your java jdk, such as `C:\Program Files\Java\jdk-11.0.1`)
+1. Download apache maven: https://maven.apache.org/download.cgi
+   1. Unzip to a folder (such as `c:\apache-maven-3.6.0`)
+   1. Navigate to your environment variable (as performed in the previous step)
+   1. In the section System Variables, find the Path environment variable and select it (if Path doesn’t exist, you’d need to create one). Add the bin folder of maven as a new entry in the Path’s edit view (such as `C:\apache-maven-3.6.0\bin`).
+1. Open cmd and navigate to C:
+1. Clone this repo: `git clone https://github.com/darenwelsh/EVANav.git`)
+1. Navigate to the handrails folder and unzip the ISS model file. `stage_55-6_v12_nohandles_binary.stl` should end up in the ..\EVANav\public\models\Handrails directory.
+1. Execute `run_nasa.bat` in the EVANav directory
+1. 3 windows will pop up. Allow them to run until 2 say "Press any key to continue" and the other says "Running at port 8080".
+1. Close all 3 windows
+1. Execute `run_nasa.bat` again
+1. Allow time for the browser to load. You may see better results from Edge than Chrome. You may have to refresh the browser after a couple minutes.
