@@ -30,7 +30,7 @@
     "electron": "^1.7.8",
     "isomorphic-fetch": "^2.2.1",
     "lodash.sortby": "^4.7.0",
-    "node-sass": "^4.3.0",
+    "node-sass": "^4.6.0",
     "prop-types": "^15.6.0",
     "rc-slider": "^8.4.0",
     "react": "^16.4.0",
